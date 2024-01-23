@@ -1,30 +1,11 @@
 ![Logo](https://github.com/moengage/MoEngage-iOS-SDK/blob/master/Images/moe_logo_blue.png)
 # MoEngage-iOS-SDK
 
-[![Version](https://img.shields.io/cocoapods/v/MoEngage-iOS-SDK.svg?style=flat)](http://cocoapods.org/pods/MoEngage-iOS-SDK)
-[![License](https://img.shields.io/cocoapods/l/MoEngage-iOS-SDK.svg?style=flat)](http://cocoapods.org/pods/MoEngage-iOS-SDK)
-
 MoEngage provides a platform which enables companies to deliver personalized interactions to their users through push notifications, in-app campaigns, email campaigns and other re-targeting channels.
 
 ## Integration
 
-### Integration through CocoaPods
-CocoaPods is a dependency manager for Objective C & Swift projects and makes integration easier.
-
-1. If you don't have CocoaPods installed, you can do it by executing the following line in your terminal.
-
-    ```sudo gem install cocoapods```
-    
-2. If you don't have a Podfile, create a plain text file named Podfile in the Xcode project directory with the following content, making sure to set the platform and version that matches your app.
-
-    ```pod 'MoEngage-iOS-SDK'```
-    
-3. Install MoEngage SDK by executing the following in the Xcode project directory.
-
-    ```pod install```
-    
-4. Now, open your project workspace and check if MoEngage SDK is properly added.
-    
+To install the framework manually, follow the guide https://developers.moengage.com/hc/en-us/articles/4404183451412-Manual-Integration
 
 ## SDK Initialization
 
@@ -32,39 +13,46 @@ Login to your MoEngage account, go to **Settings** in the left panel of the dash
 
 ### In Objective-C:
 
+    @import MoEngageSDK;
+    
     - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
-        //Create a config object
-        MOSDKConfig *sdkConfig = [[MOSDKConfig alloc] initWithAppID:@"Your APP ID"];
-        
-        // Separate initialization methods for Test and Live Environments
-        #ifdef DEBUG
-           [[MoEngage sharedInstance] initializeDefaultTestInstanceWithConfig:sdkConfig andLaunchOptions:nil];
-        #else
-           [[MoEngage sharedInstance] initializeDefaultLiveInstanceWithConfig:sdkConfig andLaunchOptions:nil];
-        #endif
-        
-        //Rest of the implementation of method
-        //-------
+       //TODO: Add your MoEngage App ID and Data center.
+       MoEngageSDKConfig* sdkConfig = [[MoEngageSDKConfig alloc] initWithAppId:@"YOUR APP ID" dataCenter: DATA_CENTER];
+       
+       // MoEngage SDK Initialization
+       // Separate initialization methods for Dev and Prod initializations
+       #ifdef DEBUG
+         [[MoEngage sharedInstance] initializeDefaultTestInstance:sdkConfig];
+       #else
+         [[MoEngage sharedInstance] initializeDefaultLiveInstance:sdkConfig];
+       #endif
+    
+       //Rest of the implementation of method
+       //-------
     }
 
 ### In Swift:
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions:     [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    import MoEngageSDK
     
-        //Create a config object
-        let sdkConfig = MOSDKConfig(withAppID: "Your App ID")
-        
-        // Separate initialization methods for Test and Live Environments
-        #if DEBUG
-            MoEngage.sharedInstance().initializeDefaultTestInstance(with: sdkConfig, andLaunchOptions: launchOptions)
-        #else
-            MoEngage.sharedInstance().initializeDefaultLiveInstance(with: sdkConfig, andLaunchOptions: launchOptions)
-        #endif
-        
-        //Rest of the implementation of method
-        //-------
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+  
+      //Add your MoEngage App ID and Data center.
+      let sdkConfig = MoEngageSDKConfig(appId: "YOUR APPID", dataCenter: DATA_CENTER);
+ 
+      // MoEngage SDK Initialization
+      // Separate initialization methods for Dev and Prod initializations
+      #if DEBUG
+          MoEngage.sharedInstance.initializeDefaultTestInstance(sdkConfig)
+      #else
+         MoEngage.sharedInstance.initializeDefaultLiveInstance(sdkConfig)
+      #endif
+ 
+      //Rest of the implementation of method
+      //-------
+      return true
     }
+
 
 Thats it!! SDK is successfully integrated and initialized in the project, and ready to use. 
 
