@@ -3,6 +3,10 @@
 
 ## Changelog:
 
+### Version 9.15.1 *(06 May 2024)*
+-------------------------------------------
+* Fixed the app rejection issue due to privacy manifest
+
 ### Version 9.15.0 *(23rd January 2024)*
 -------------------------------------------
 * Added privacy manifest file

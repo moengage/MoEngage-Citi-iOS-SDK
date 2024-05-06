@@ -1,6 +1,6 @@
 ---
 triple:          'x86_64-apple-darwin'
-binary-path:     '/Users/rakshitha/Library/Developer/Xcode/DerivedData/MoEngage-agkiherlqdmvaeakrqtfvsowceuq/Build/Intermediates.noindex/ArchiveIntermediates/MoEngageAnalytics/InstallationBuildProductsLocation/Library/Frameworks/MoEngageAnalytics.framework/MoEngageAnalytics'
+binary-path:     '/Users/rakshitha/Library/Developer/Xcode/DerivedData/MoEngage-cmmkomvfnirhvydwlmcpvafliotx/Build/Intermediates.noindex/ArchiveIntermediates/MoEngageAnalytics/InstallationBuildProductsLocation/Library/Frameworks/MoEngageAnalytics.framework/MoEngageAnalytics'
 relocations:
   - { offsetInCU: 0x34, offset: 0x56F84, size: 0x8, addend: 0x0, symName: _MoEngageAnalyticsVersionString, symObjAddr: 0x0, symBinAddr: 0x478F0, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x56FB9, size: 0x8, addend: 0x0, symName: _MoEngageAnalyticsVersionNumber, symObjAddr: 0x38, symBinAddr: 0x47928, symSize: 0x0 }
@@ -190,7 +190,7 @@ relocations:
   - { offsetInCU: 0x4B, offset: 0x60E99, size: 0x8, addend: 0x0, symName: '_$s17MoEngageAnalytics0abC5CacheCfD', symObjAddr: 0x0, symBinAddr: 0x126A0, symSize: 0x20 }
   - { offsetInCU: 0x79, offset: 0x60EC7, size: 0x8, addend: 0x0, symName: '_$s17MoEngageAnalytics0abC5CacheCMa', symObjAddr: 0x20, symBinAddr: 0x126C0, symSize: 0x14 }
   - { offsetInCU: 0x2B, offset: 0x60FD4, size: 0x8, addend: 0x0, symName: '_$s17MoEngageAnalytics0abC12TimerHandlerC14sharedInstance_WZ', symObjAddr: 0x0, symBinAddr: 0x126E0, symSize: 0x40 }
-  - { offsetInCU: 0x4F, offset: 0x60FF8, size: 0x8, addend: 0x0, symName: '_$s17MoEngageAnalytics0abC12TimerHandlerC14sharedInstanceACvpZ', symObjAddr: 0x6510, symBinAddr: 0x59F08, symSize: 0x0 }
+  - { offsetInCU: 0x4F, offset: 0x60FF8, size: 0x8, addend: 0x0, symName: '_$s17MoEngageAnalytics0abC12TimerHandlerC14sharedInstanceACvpZ', symObjAddr: 0x6508, symBinAddr: 0x59F08, symSize: 0x0 }
   - { offsetInCU: 0xA7, offset: 0x61050, size: 0x8, addend: 0x0, symName: '_$s17MoEngageAnalytics0abC12TimerHandlerC05startD0yyF', symObjAddr: 0x40, symBinAddr: 0x12720, symSize: 0x230 }
   - { offsetInCU: 0x114, offset: 0x610BD, size: 0x8, addend: 0x0, symName: '_$s17MoEngageAnalytics0abC12TimerHandlerC05startD0yyFyyScMYccfU_', symObjAddr: 0x270, symBinAddr: 0x12950, symSize: 0x60 }
   - { offsetInCU: 0x15E, offset: 0x61107, size: 0x8, addend: 0x0, symName: '_$s17MoEngageAnalytics0abC12TimerHandlerC04stopD0yyF', symObjAddr: 0x2D0, symBinAddr: 0x129B0, symSize: 0x1D0 }

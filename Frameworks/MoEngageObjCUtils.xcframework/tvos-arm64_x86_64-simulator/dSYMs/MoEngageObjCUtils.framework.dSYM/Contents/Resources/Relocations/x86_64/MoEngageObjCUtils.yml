@@ -1,6 +1,6 @@
 ---
 triple:          'x86_64-apple-darwin'
-binary-path:     '/Users/rakshitha/Library/Developer/Xcode/DerivedData/MoEngage-agkiherlqdmvaeakrqtfvsowceuq/Build/Intermediates.noindex/ArchiveIntermediates/MoEngageObjCUtilsTvOS/InstallationBuildProductsLocation/Library/Frameworks/MoEngageObjCUtils.framework/MoEngageObjCUtils'
+binary-path:     '/Users/rakshitha/Library/Developer/Xcode/DerivedData/MoEngage-cmmkomvfnirhvydwlmcpvafliotx/Build/Intermediates.noindex/ArchiveIntermediates/MoEngageObjCUtilsTvOS/InstallationBuildProductsLocation/Library/Frameworks/MoEngageObjCUtils.framework/MoEngageObjCUtils'
 relocations:
   - { offsetInCU: 0x34, offset: 0x54F44, size: 0x8, addend: 0x0, symName: _MoEngageObjCUtilsVersionString, symObjAddr: 0x0, symBinAddr: 0xAD60, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x54F79, size: 0x8, addend: 0x0, symName: _MoEngageObjCUtilsVersionNumber, symObjAddr: 0x38, symBinAddr: 0xAD98, symSize: 0x0 }
@@ -84,8 +84,8 @@ relocations:
   - { offsetInCU: 0x3121, offset: 0x580B0, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateSwizzler originalDelegate]', symObjAddr: 0x2E0E, symBinAddr: 0x6E0E, symSize: 0x11 }
   - { offsetInCU: 0x27, offset: 0x58C70, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateProxy canSwizzleMethods]', symObjAddr: 0x0, symBinAddr: 0x6E1F, symSize: 0x19 }
   - { offsetInCU: 0x3A, offset: 0x58C83, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateProxy sharedProxy]', symObjAddr: 0x19, symBinAddr: 0x6E38, symSize: 0x30 }
-  - { offsetInCU: 0x64, offset: 0x58CAD, size: 0x8, addend: 0x0, symName: _sharedProxy.proxy, symObjAddr: 0x2FD88, symBinAddr: 0x15CC0, symSize: 0x0 }
-  - { offsetInCU: 0x7A, offset: 0x58CC3, size: 0x8, addend: 0x0, symName: _sharedProxy.onceToken, symObjAddr: 0x2FD90, symBinAddr: 0x15CC8, symSize: 0x0 }
+  - { offsetInCU: 0x64, offset: 0x58CAD, size: 0x8, addend: 0x0, symName: _sharedProxy.proxy, symObjAddr: 0x2FD80, symBinAddr: 0x15CC0, symSize: 0x0 }
+  - { offsetInCU: 0x7A, offset: 0x58CC3, size: 0x8, addend: 0x0, symName: _sharedProxy.onceToken, symObjAddr: 0x2FD88, symBinAddr: 0x15CC8, symSize: 0x0 }
   - { offsetInCU: 0x22A, offset: 0x58E73, size: 0x8, addend: 0x0, symName: _UserNotificationObserverContext, symObjAddr: 0x4028, symBinAddr: 0x15A28, symSize: 0x0 }
   - { offsetInCU: 0x37D, offset: 0x58FC6, size: 0x8, addend: 0x0, symName: '+[MoEngageAppDelegateProxy canSwizzleMethods]', symObjAddr: 0x0, symBinAddr: 0x6E1F, symSize: 0x19 }
   - { offsetInCU: 0x3F6, offset: 0x5903F, size: 0x8, addend: 0x0, symName: '___39+[MoEngageAppDelegateProxy sharedProxy]_block_invoke', symObjAddr: 0x49, symBinAddr: 0x6E68, symSize: 0x25 }
