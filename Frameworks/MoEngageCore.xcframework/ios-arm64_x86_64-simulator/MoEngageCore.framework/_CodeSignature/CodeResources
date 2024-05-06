@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2lcySJ9OXtfgcbhRr/Q+dx1QeYA=
+		qxkSqcMplowqmbPODH0oU6w34Us=
 		</data>
 		<key>Modules/MoEngageCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		bGjoL+UoDPECx8gnhIRAQjOuWoA=
+		0GMM/D7tZymVUZCIuZdx/A9qxPU=
 		</data>
 		<key>Modules/MoEngageCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/MoEngageCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		S44FVZ3diJ862utaRfnw0/Yl4+o=
+		Y86I5VPoW5jEBntCgbgp/GnHGnk=
 		</data>
 		<key>Modules/MoEngageCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		bGjoL+UoDPECx8gnhIRAQjOuWoA=
+		0GMM/D7tZymVUZCIuZdx/A9qxPU=
 		</data>
 		<key>Modules/MoEngageCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/MoEngageCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HD3MZ3ZUXLwSljrkh2KUUovnmgE=
+		07OBi7mtpxdw50TuZdliozUyn+8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -92,7 +92,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qO99QFl/KqMcPGo305r/OK0W/uY9U1BVXl51Q0nR98o=
+			5HHIjPnhWnxM7i00HzVqN56K5JXUKIgfaTmt3vkHK1s=
 			</data>
 		</dict>
 		<key>Modules/MoEngageCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -120,14 +120,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X97U7w3KKO8EHK7mjNzxu6R55ERQZOlLpLsWyEA+EoU=
+			+0qdyrgYQNDRel8D14Vvrt/tilChM0vyZ6o3YgZmgzk=
 			</data>
 		</dict>
 		<key>Modules/MoEngageCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qO99QFl/KqMcPGo305r/OK0W/uY9U1BVXl51Q0nR98o=
+			5HHIjPnhWnxM7i00HzVqN56K5JXUKIgfaTmt3vkHK1s=
 			</data>
 		</dict>
 		<key>Modules/MoEngageCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -155,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vlupvzfVN0wtgAdJAV7V8Oup7mZFCVtWwByeHLfd8+I=
+			71pXEWqxY0y8nPGfTTHNhxkQjaSkAv9ATfHUeAkLsc8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

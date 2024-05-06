@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/rakshitha/Library/Developer/Xcode/DerivedData/MoEngage-agkiherlqdmvaeakrqtfvsowceuq/Build/Intermediates.noindex/ArchiveIntermediates/MoEngageMessaging/InstallationBuildProductsLocation/Library/Frameworks/MoEngageMessaging.framework/MoEngageMessaging'
+binary-path:     '/Users/rakshitha/Library/Developer/Xcode/DerivedData/MoEngage-cmmkomvfnirhvydwlmcpvafliotx/Build/Intermediates.noindex/ArchiveIntermediates/MoEngageMessaging/InstallationBuildProductsLocation/Library/Frameworks/MoEngageMessaging.framework/MoEngageMessaging'
 relocations:
   - { offsetInCU: 0x34, offset: 0x55999, size: 0x8, addend: 0x0, symName: _MoEngageMessagingVersionString, symObjAddr: 0x0, symBinAddr: 0x26D10, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x559CE, size: 0x8, addend: 0x0, symName: _MoEngageMessagingVersionNumber, symObjAddr: 0x38, symBinAddr: 0x26D48, symSize: 0x0 }
@@ -112,7 +112,7 @@ relocations:
   - { offsetInCU: 0x783, offset: 0x59ADB, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0aB14ImpressionDataC10CodingKeys33_BF6C2F5CA1A388FDB8BF2408D5A7D8F0LLOs28CustomDebugStringConvertibleAAsAGP16debugDescriptionSSvgTW', symObjAddr: 0x148, symBinAddr: 0x82BC, symSize: 0x28 }
   - { offsetInCU: 0x79F, offset: 0x59AF7, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0aB14ImpressionDataC10CodingKeys33_BF6C2F5CA1A388FDB8BF2408D5A7D8F0LLOs23CustomStringConvertibleAAsAGP11descriptionSSvgTW', symObjAddr: 0x170, symBinAddr: 0x82E4, symSize: 0x28 }
   - { offsetInCU: 0x831, offset: 0x59B89, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0aB14ImpressionDataC0aB4Core0aB21DictionaryConvertibleAadEP13convertToDictSDySSypGSgyFTW', symObjAddr: 0x46C, symBinAddr: 0x85E0, symSize: 0x4 }
-  - { offsetInCU: 0x4B, offset: 0x59CA6, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0aB22MessageDelegateHandlerC14sharedInstanceACSgvpZ', symObjAddr: 0xD5D8, symBinAddr: 0x38690, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x59CA6, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0aB22MessageDelegateHandlerC14sharedInstanceACSgvpZ', symObjAddr: 0xD5D0, symBinAddr: 0x38690, symSize: 0x0 }
   - { offsetInCU: 0x65, offset: 0x59CC0, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0aB22MessageDelegateHandlerCACycfc', symObjAddr: 0xC, symBinAddr: 0x8AB8, symSize: 0x2F4 }
   - { offsetInCU: 0xCB, offset: 0x59D26, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0aB22MessageDelegateHandlerCACycfcyyScMYccfU_', symObjAddr: 0x300, symBinAddr: 0x8DAC, symSize: 0x60 }
   - { offsetInCU: 0xFD, offset: 0x59D58, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0aB22MessageDelegateHandlerCACycfcTo', symObjAddr: 0x38C, symBinAddr: 0x8E38, symSize: 0x20 }
@@ -668,7 +668,7 @@ relocations:
   - { offsetInCU: 0xB5E, offset: 0x68088, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0aB10PushActionCMa', symObjAddr: 0x1324, symBinAddr: 0x1CDC4, symSize: 0x20 }
   - { offsetInCU: 0x2B, offset: 0x682C7, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0aB22PushFileStorageHandlerVMa', symObjAddr: 0x0, symBinAddr: 0x1CEBC, symSize: 0x10 }
   - { offsetInCU: 0x43, offset: 0x682DF, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0aB22PushFileStorageHandlerVMa', symObjAddr: 0x0, symBinAddr: 0x1CEBC, symSize: 0x10 }
-  - { offsetInCU: 0x4F, offset: 0x6841B, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0abC11CoordinatorC14sharedInstanceACvpZ', symObjAddr: 0xC438, symBinAddr: 0x386C8, symSize: 0x0 }
+  - { offsetInCU: 0x4F, offset: 0x6841B, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0abC11CoordinatorC14sharedInstanceACvpZ', symObjAddr: 0xC430, symBinAddr: 0x386C8, symSize: 0x0 }
   - { offsetInCU: 0xA9, offset: 0x68475, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0abC11CoordinatorC03getC10Controller13forInstanceID19withCompletionBlockySSSg_yAA0abcF0CSgctFy0aB4Core0aB11SDKInstanceCSgcfU_', symObjAddr: 0x5A8, symBinAddr: 0x1D474, symSize: 0x30 }
   - { offsetInCU: 0xED, offset: 0x684B9, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0abC11CoordinatorC03getC10Controller11sdkInstance15completionBlocky0aB4Core0aB11SDKInstanceC_yAA0abcF0CctF', symObjAddr: 0x5D8, symBinAddr: 0x1D4A4, symSize: 0x20C }
   - { offsetInCU: 0x165, offset: 0x68531, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0abC11CoordinatorC03getC10Controller11sdkInstance15completionBlocky0aB4Core0aB11SDKInstanceC_yAA0abcF0CctFyyYbcfU_', symObjAddr: 0x7E4, symBinAddr: 0x1D6B0, symSize: 0x3F0 }
@@ -681,7 +681,7 @@ relocations:
   - { offsetInCU: 0x757, offset: 0x68B23, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0abC11CoordinatorC10badgeResetyyFZyyScMYccfU_', symObjAddr: 0x1B04, symBinAddr: 0x1E9D0, symSize: 0x50 }
   - { offsetInCU: 0x78F, offset: 0x68B5B, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0abC11CoordinatorCfD', symObjAddr: 0x1B54, symBinAddr: 0x1EA20, symSize: 0x24 }
   - { offsetInCU: 0x810, offset: 0x68BDC, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0abC11CoordinatorC23pushNotificationClicked11withPayload19andActionIdentifierySDys11AnyHashableVypG_SStFTf4nnd_n', symObjAddr: 0x1D60, symBinAddr: 0x1EBA8, symSize: 0x3E0 }
-  - { offsetInCU: 0x9B2, offset: 0x68D7E, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0abC11CoordinatorC23shouldDisableBadgeResetSbvpZ', symObjAddr: 0xC440, symBinAddr: 0x386D0, symSize: 0x0 }
+  - { offsetInCU: 0x9B2, offset: 0x68D7E, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0abC11CoordinatorC23shouldDisableBadgeResetSbvpZ', symObjAddr: 0xC438, symBinAddr: 0x386D0, symSize: 0x0 }
   - { offsetInCU: 0xADD, offset: 0x68EA9, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0abC11CoordinatorC14sharedInstance_WZ', symObjAddr: 0x3A8, symBinAddr: 0x1D274, symSize: 0x200 }
   - { offsetInCU: 0xD53, offset: 0x6911F, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0abC11CoordinatorCMa', symObjAddr: 0x1B78, symBinAddr: 0x1EA44, symSize: 0x20 }
   - { offsetInCU: 0xD67, offset: 0x69133, size: 0x8, addend: 0x0, symName: '_$s17MoEngageMessaging0abC11CoordinatorC28updateNotificationCategoriesyyShySo22UNNotificationCategoryCGFyyYbcfU_TA', symObjAddr: 0x1BC4, symBinAddr: 0x1EA90, symSize: 0x8 }

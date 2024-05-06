@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/rakshitha/Library/Developer/Xcode/DerivedData/MoEngage-agkiherlqdmvaeakrqtfvsowceuq/Build/Intermediates.noindex/ArchiveIntermediates/MoEngageSDK/InstallationBuildProductsLocation/Library/Frameworks/MoEngageSDK.framework/MoEngageSDK'
+binary-path:     '/Users/rakshitha/Library/Developer/Xcode/DerivedData/MoEngage-cmmkomvfnirhvydwlmcpvafliotx/Build/Intermediates.noindex/ArchiveIntermediates/MoEngageSDK/InstallationBuildProductsLocation/Library/Frameworks/MoEngageSDK.framework/MoEngageSDK'
 relocations:
   - { offsetInCU: 0x34, offset: 0x55A98, size: 0x8, addend: 0x0, symName: _MoEngageSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x3838, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x55ACD, size: 0x8, addend: 0x0, symName: _MoEngageSDKVersionNumber, symObjAddr: 0x30, symBinAddr: 0x3868, symSize: 0x0 }

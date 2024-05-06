@@ -1,3 +1,9 @@
+# 06-05-2024
+
+## MoEngage-iOS-SDK - 9.15.1
+-------------------------------------------
+* Fixed the app rejection issue due to privacy manifest
+
 # 23-01-2024
 
 ## MoEngage-iOS-SDK - 9.15.0
