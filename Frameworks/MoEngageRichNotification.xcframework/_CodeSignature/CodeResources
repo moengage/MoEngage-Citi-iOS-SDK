@@ -6,11 +6,11 @@
 	<dict>
 		<key>ios-arm64/MoEngageRichNotification.framework/CHANGELOG.md</key>
 		<data>
-		4K85I1tzr8GXk/5qbB4DmZhOOdI=
+		FqrAfrRv2Twz31tFzNOeB42xFRM=
 		</data>
 		<key>ios-arm64/MoEngageRichNotification.framework/Headers/MoEngageRichNotification-Swift.h</key>
 		<data>
-		XXwvJNLAI5jHiJOMIsMC06fUR08=
+		Ee2AbW0GdVUjdo4L4up09OYX6WE=
 		</data>
 		<key>ios-arm64/MoEngageRichNotification.framework/Headers/MoEngageRichNotification.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>ios-arm64/MoEngageRichNotification.framework/Info.plist</key>
 		<data>
-		mur5ZhOSrmrjKMtyUV9jxDD/Mug=
+		2kCmTOxTYt0pdqfGSvapvTu2c1A=
 		</data>
 		<key>ios-arm64/MoEngageRichNotification.framework/LICENSE</key>
 		<data>
@@ -42,23 +42,23 @@
 		</data>
 		<key>ios-arm64/MoEngageRichNotification.framework/MoEngageRichNotification</key>
 		<data>
-		HRu9J9RVXZZOI2xnOilubT9w8tQ=
+		JEhGwYXCRGqshzUq1OAlnuimb1g=
 		</data>
 		<key>ios-arm64/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		/n4UFJbIJ6JqCaSWsW7QAX7JzFI=
+		a9FjyLDZ1uARoDlSpHyHQeYN/gI=
 		</data>
 		<key>ios-arm64/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		FfhMS+uA6Q8gV+o//rWQbkGKR34=
+		LrdhQzciVA+cuKiVS8owbNBgw2c=
 		</data>
 		<key>ios-arm64/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		AaaIWZnZbyDlbbFX49j9tC1aJh8=
+		AC+EzDYBlXbAEFSVT2mXwmhH6s8=
 		</data>
 		<key>ios-arm64/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		FfhMS+uA6Q8gV+o//rWQbkGKR34=
+		LrdhQzciVA+cuKiVS8owbNBgw2c=
 		</data>
 		<key>ios-arm64/MoEngageRichNotification.framework/Modules/module.modulemap</key>
 		<data>
@@ -70,27 +70,27 @@
 		</data>
 		<key>ios-arm64/MoEngageRichNotification.framework/_CodeSignature/CodeResources</key>
 		<data>
-		qYa3qu03i2sfqSXO/x/BFwXdVhY=
+		WnjgvxPA4icQD7YeA8Ds2PpfAp0=
 		</data>
 		<key>ios-arm64/dSYMs/MoEngageRichNotification.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		fmSQVAt3mUQ+YzhNtc7moG+EItE=
+		iqjszT/+iyrkkERZACFCh1DeeDc=
 		</data>
 		<key>ios-arm64/dSYMs/MoEngageRichNotification.framework.dSYM/Contents/Resources/DWARF/MoEngageRichNotification</key>
 		<data>
-		TdASXauTPcVfzN/YfOijF3E9LiY=
+		fEnq82crbGLOV1fSO3CKZNLax4Q=
 		</data>
 		<key>ios-arm64/dSYMs/MoEngageRichNotification.framework.dSYM/Contents/Resources/Relocations/aarch64/MoEngageRichNotification.yml</key>
 		<data>
-		Eh0U+Zs+2akEvBy8NQjUlNG9JuA=
+		IwwdJtT60enxNseeasdXQJVT8Xg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/CHANGELOG.md</key>
 		<data>
-		4K85I1tzr8GXk/5qbB4DmZhOOdI=
+		FqrAfrRv2Twz31tFzNOeB42xFRM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Headers/MoEngageRichNotification-Swift.h</key>
 		<data>
-		WIZdar7U6oDIZv1uQOqcA+ZT4uo=
+		eSCs83qHXz4ztgeQ0TGAmSVjIjs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Headers/MoEngageRichNotification.h</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Info.plist</key>
 		<data>
-		QmH+rDITM1KUz95dalYFCGe6tCQ=
+		XXSr44QL9t2EKtL+Je/R2ISo3jU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/LICENSE</key>
 		<data>
@@ -122,39 +122,39 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/MoEngageRichNotification</key>
 		<data>
-		OdzNShneNfxV0pU+6A2n0I5e5XY=
+		xFx8mJAgU6+uI1Z8D6AZzTFtPTA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		/n4UFJbIJ6JqCaSWsW7QAX7JzFI=
+		a9FjyLDZ1uARoDlSpHyHQeYN/gI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		XWd4iaZ23c03ezgcSze9SiVNxwQ=
+		aaFERDzKr5HzDC3TB/hBYeCRfn4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		HyRbOqxT08QBIK2mE9epg1YKiHo=
+		N8RhFaTUtmYrHUc7w+jcABwZz6U=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		XWd4iaZ23c03ezgcSze9SiVNxwQ=
+		aaFERDzKr5HzDC3TB/hBYeCRfn4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/n4UFJbIJ6JqCaSWsW7QAX7JzFI=
+		a9FjyLDZ1uARoDlSpHyHQeYN/gI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		1C6W5JiT+bI6vZX8aiP5zEoP46w=
+		USw2/JxvZBGVXQWuPPQq1oSLF/Y=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		WzJOZJbbgylAagL642AxR3tTYno=
+		R0h6IVA8zKRqa2m9yRAW3Vi5qSs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		1C6W5JiT+bI6vZX8aiP5zEoP46w=
+		USw2/JxvZBGVXQWuPPQq1oSLF/Y=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Modules/module.modulemap</key>
 		<data>
@@ -166,23 +166,23 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/_CodeSignature/CodeResources</key>
 		<data>
-		J7+ZfcOTUPb1+42gh7HZOPQcnJw=
+		hs7iLd0HvoAidJ/FYgGVLS8ZCD0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/MoEngageRichNotification.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		fmSQVAt3mUQ+YzhNtc7moG+EItE=
+		iqjszT/+iyrkkERZACFCh1DeeDc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/MoEngageRichNotification.framework.dSYM/Contents/Resources/DWARF/MoEngageRichNotification</key>
 		<data>
-		IQOnxsQ1SiU2NW+bkonCy1jGZhE=
+		VrARndt5msf9+LT5zB86/klVQRg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/MoEngageRichNotification.framework.dSYM/Contents/Resources/Relocations/aarch64/MoEngageRichNotification.yml</key>
 		<data>
-		7LmogPxUZAbUxEzGehTuJr/USGI=
+		YQSMGGCJrIVyOFdrVcY/hbYFae4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/MoEngageRichNotification.framework.dSYM/Contents/Resources/Relocations/x86_64/MoEngageRichNotification.yml</key>
 		<data>
-		CkGnMUSwmGWAHYfquMZ44SqRFZY=
+		p/upbDNvecECsoBUA4NSROqpsN4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -191,22 +191,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4K85I1tzr8GXk/5qbB4DmZhOOdI=
+			FqrAfrRv2Twz31tFzNOeB42xFRM=
 			</data>
 			<key>hash2</key>
 			<data>
-			pXb3shQCXHQVtK2qA/+IgANdmJAcr/U/6MB38bppB08=
+			4e43tIrc0/m7iU7YUL4wABbeAVYbWfg8XOKJiDWRcCk=
 			</data>
 		</dict>
 		<key>ios-arm64/MoEngageRichNotification.framework/Headers/MoEngageRichNotification-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XXwvJNLAI5jHiJOMIsMC06fUR08=
+			Ee2AbW0GdVUjdo4L4up09OYX6WE=
 			</data>
 			<key>hash2</key>
 			<data>
-			eqe2GxHWjZBwrHfUrew6NpZApGHw6F4ivnFxOsfkfCU=
+			1fYlhdvAvZXx9mtHgZJmemKjhpLkeRfUMZTzjcIO2+E=
 			</data>
 		</dict>
 		<key>ios-arm64/MoEngageRichNotification.framework/Headers/MoEngageRichNotification.h</key>
@@ -224,11 +224,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mur5ZhOSrmrjKMtyUV9jxDD/Mug=
+			2kCmTOxTYt0pdqfGSvapvTu2c1A=
 			</data>
 			<key>hash2</key>
 			<data>
-			n9maa2NzWCvIyMLDuEB+Tl2YDziUO+bbXWTUbH4OUhM=
+			RLxD5U3MZbx5vNg18c4OU3/aImHdPcfzF17yTCSBBbs=
 			</data>
 		</dict>
 		<key>ios-arm64/MoEngageRichNotification.framework/LICENSE</key>
@@ -290,55 +290,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HRu9J9RVXZZOI2xnOilubT9w8tQ=
+			JEhGwYXCRGqshzUq1OAlnuimb1g=
 			</data>
 			<key>hash2</key>
 			<data>
-			j1UWC5/xz2liNNRnRKXXVjfBJxaV2v/NLdNjmvjFJho=
+			LI3XBjXWr/8bNdwpPR38YSoCZUayN+sbGFoPxEAbBbE=
 			</data>
 		</dict>
 		<key>ios-arm64/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/n4UFJbIJ6JqCaSWsW7QAX7JzFI=
+			a9FjyLDZ1uARoDlSpHyHQeYN/gI=
 			</data>
 			<key>hash2</key>
 			<data>
-			H0wxh1ClH7XKIz1wXNQ43OPxFLkENSNIT8hUXamXGxM=
+			bfp3r2abOMi71d/usa+SRyPYEWucAW3wYJfzDjZWbpY=
 			</data>
 		</dict>
 		<key>ios-arm64/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FfhMS+uA6Q8gV+o//rWQbkGKR34=
+			LrdhQzciVA+cuKiVS8owbNBgw2c=
 			</data>
 			<key>hash2</key>
 			<data>
-			nSLyItysRGIYnG3/yNpwMvutrXL308pp1UJd00VRH0E=
+			zakUyzL57JDDP5/QPyhqIHg9W9OqSPKb45KODeCsf50=
 			</data>
 		</dict>
 		<key>ios-arm64/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AaaIWZnZbyDlbbFX49j9tC1aJh8=
+			AC+EzDYBlXbAEFSVT2mXwmhH6s8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Fkp+TRq0r2M562kF3A5TO+Oy8xeHryGTACCK7KEZpgQ=
+			u3TMtUVlBgaa62rvXKTiVcfvO8J/iXq0ieug4EYw5vk=
 			</data>
 		</dict>
 		<key>ios-arm64/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FfhMS+uA6Q8gV+o//rWQbkGKR34=
+			LrdhQzciVA+cuKiVS8owbNBgw2c=
 			</data>
 			<key>hash2</key>
 			<data>
-			nSLyItysRGIYnG3/yNpwMvutrXL308pp1UJd00VRH0E=
+			zakUyzL57JDDP5/QPyhqIHg9W9OqSPKb45KODeCsf50=
 			</data>
 		</dict>
 		<key>ios-arm64/MoEngageRichNotification.framework/Modules/module.modulemap</key>
@@ -367,66 +367,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qYa3qu03i2sfqSXO/x/BFwXdVhY=
+			WnjgvxPA4icQD7YeA8Ds2PpfAp0=
 			</data>
 			<key>hash2</key>
 			<data>
-			l51wFgn/omNkd3QJzeBuocUH8YfBlQxoW52vVwn0sRQ=
+			MMnptDqHpHtkEy1+W6Z0dEr5SCdwBV1QiNmTUiNL5Ls=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/MoEngageRichNotification.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fmSQVAt3mUQ+YzhNtc7moG+EItE=
+			iqjszT/+iyrkkERZACFCh1DeeDc=
 			</data>
 			<key>hash2</key>
 			<data>
-			r5VfI2rgOu6Dq/FwkIhK5BemiQcnnwWVNN13eH0L+qk=
+			uGm/+jnvQFc1KvEaZcOqhTLLF9maHwVDpDYLH/Y9gvM=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/MoEngageRichNotification.framework.dSYM/Contents/Resources/DWARF/MoEngageRichNotification</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TdASXauTPcVfzN/YfOijF3E9LiY=
+			fEnq82crbGLOV1fSO3CKZNLax4Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			wVZit0wPwi9qrjtK84e22DsTVJKu4Q9WtobTVeGiQzw=
+			S6AvVhl8Cy6lR625VJAtTDux742YP27se842hxdNwB8=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/MoEngageRichNotification.framework.dSYM/Contents/Resources/Relocations/aarch64/MoEngageRichNotification.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Eh0U+Zs+2akEvBy8NQjUlNG9JuA=
+			IwwdJtT60enxNseeasdXQJVT8Xg=
 			</data>
 			<key>hash2</key>
 			<data>
-			A+pRCNPs1/0aAdS9cuhq9QXGVj0DGv+CnoH26j3YnBU=
+			7TZyFo09vNORobXW2JxpSEeI8YfG1BKbgv/bGca9SiA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/CHANGELOG.md</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4K85I1tzr8GXk/5qbB4DmZhOOdI=
+			FqrAfrRv2Twz31tFzNOeB42xFRM=
 			</data>
 			<key>hash2</key>
 			<data>
-			pXb3shQCXHQVtK2qA/+IgANdmJAcr/U/6MB38bppB08=
+			4e43tIrc0/m7iU7YUL4wABbeAVYbWfg8XOKJiDWRcCk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Headers/MoEngageRichNotification-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WIZdar7U6oDIZv1uQOqcA+ZT4uo=
+			eSCs83qHXz4ztgeQ0TGAmSVjIjs=
 			</data>
 			<key>hash2</key>
 			<data>
-			psmGlyf+MfGIy+v+RYKTCF79i1+uD2Z97U47pkDOcZU=
+			YFCqII4lZxeXWiYRypPiBw9Bb2GmVluJd+wP7yc1JTM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Headers/MoEngageRichNotification.h</key>
@@ -444,11 +444,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QmH+rDITM1KUz95dalYFCGe6tCQ=
+			XXSr44QL9t2EKtL+Je/R2ISo3jU=
 			</data>
 			<key>hash2</key>
 			<data>
-			bFRAK9N7E7TR7NeI2k/Kkoeqfdhw66J4Gl6DrhMIvQA=
+			3TRFLpMBoStGRlpKLnB6z9PZR3ZOOJ4Qw9r4H4m9RRE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/LICENSE</key>
@@ -510,99 +510,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OdzNShneNfxV0pU+6A2n0I5e5XY=
+			xFx8mJAgU6+uI1Z8D6AZzTFtPTA=
 			</data>
 			<key>hash2</key>
 			<data>
-			4rh8kLqjH9/siYC+4rfEd9ASJJ9jiWYO6dBJEIh1qyk=
+			9jrhRVnvWyoeiGbVoj90mIvOvq6Lc2eqOhXOjG+Y6HE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/n4UFJbIJ6JqCaSWsW7QAX7JzFI=
+			a9FjyLDZ1uARoDlSpHyHQeYN/gI=
 			</data>
 			<key>hash2</key>
 			<data>
-			H0wxh1ClH7XKIz1wXNQ43OPxFLkENSNIT8hUXamXGxM=
+			bfp3r2abOMi71d/usa+SRyPYEWucAW3wYJfzDjZWbpY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XWd4iaZ23c03ezgcSze9SiVNxwQ=
+			aaFERDzKr5HzDC3TB/hBYeCRfn4=
 			</data>
 			<key>hash2</key>
 			<data>
-			sztWGWS3HF/uYpYuiQOpaHZRo2Fkuo2YEQSjQAFuvmQ=
+			qImbQa2QVxJQp4P4UJ9JPi4gAncJCSnoklMK0WgV0P8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HyRbOqxT08QBIK2mE9epg1YKiHo=
+			N8RhFaTUtmYrHUc7w+jcABwZz6U=
 			</data>
 			<key>hash2</key>
 			<data>
-			JE9EutiQS4yahHSlXgNTAUSOTHOqIAimheo2p6ruBI8=
+			FWobnaU8Mq+k0die1145S6B6TMqb0zDnuO6/HYs9x0I=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XWd4iaZ23c03ezgcSze9SiVNxwQ=
+			aaFERDzKr5HzDC3TB/hBYeCRfn4=
 			</data>
 			<key>hash2</key>
 			<data>
-			sztWGWS3HF/uYpYuiQOpaHZRo2Fkuo2YEQSjQAFuvmQ=
+			qImbQa2QVxJQp4P4UJ9JPi4gAncJCSnoklMK0WgV0P8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/n4UFJbIJ6JqCaSWsW7QAX7JzFI=
+			a9FjyLDZ1uARoDlSpHyHQeYN/gI=
 			</data>
 			<key>hash2</key>
 			<data>
-			H0wxh1ClH7XKIz1wXNQ43OPxFLkENSNIT8hUXamXGxM=
+			bfp3r2abOMi71d/usa+SRyPYEWucAW3wYJfzDjZWbpY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1C6W5JiT+bI6vZX8aiP5zEoP46w=
+			USw2/JxvZBGVXQWuPPQq1oSLF/Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			VQBAPz5rI0I9mHe0VEg8sx+f6lhpYgHLQKUeh5ymKq4=
+			6Vp7RSpE4cELSv95pfUE1iQLnOR/O0cFPos5+XRH7cU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WzJOZJbbgylAagL642AxR3tTYno=
+			R0h6IVA8zKRqa2m9yRAW3Vi5qSs=
 			</data>
 			<key>hash2</key>
 			<data>
-			ReE+dwW/JSLNU1zMiVRHHlqYG/Bf1l8C5ZdYmcwPEEQ=
+			5UI1hD6u35K8r2W4HwgoQGsqL3VuRfsP1BWHnA1KB5M=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Modules/MoEngageRichNotification.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1C6W5JiT+bI6vZX8aiP5zEoP46w=
+			USw2/JxvZBGVXQWuPPQq1oSLF/Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			VQBAPz5rI0I9mHe0VEg8sx+f6lhpYgHLQKUeh5ymKq4=
+			6Vp7RSpE4cELSv95pfUE1iQLnOR/O0cFPos5+XRH7cU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MoEngageRichNotification.framework/Modules/module.modulemap</key>
@@ -631,55 +631,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			J7+ZfcOTUPb1+42gh7HZOPQcnJw=
+			hs7iLd0HvoAidJ/FYgGVLS8ZCD0=
 			</data>
 			<key>hash2</key>
 			<data>
-			t3umfny8/Sc5IbTCio/7BLdBQhYbvgm855mVSkAxEHg=
+			XiXVqjJO43E9eHMnLwJNzB41NhnKoRCxgmTbxiKOyvI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/MoEngageRichNotification.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fmSQVAt3mUQ+YzhNtc7moG+EItE=
+			iqjszT/+iyrkkERZACFCh1DeeDc=
 			</data>
 			<key>hash2</key>
 			<data>
-			r5VfI2rgOu6Dq/FwkIhK5BemiQcnnwWVNN13eH0L+qk=
+			uGm/+jnvQFc1KvEaZcOqhTLLF9maHwVDpDYLH/Y9gvM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/MoEngageRichNotification.framework.dSYM/Contents/Resources/DWARF/MoEngageRichNotification</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IQOnxsQ1SiU2NW+bkonCy1jGZhE=
+			VrARndt5msf9+LT5zB86/klVQRg=
 			</data>
 			<key>hash2</key>
 			<data>
-			iphxr2wM4xWTlhvTIKVV79Hh6J0rH/TUzgfVNquFies=
+			WQwGkiSsWeOc7TlV4IJO/0c9yNcCU3oHilEKCg1z1jY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/MoEngageRichNotification.framework.dSYM/Contents/Resources/Relocations/aarch64/MoEngageRichNotification.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7LmogPxUZAbUxEzGehTuJr/USGI=
+			YQSMGGCJrIVyOFdrVcY/hbYFae4=
 			</data>
 			<key>hash2</key>
 			<data>
-			SnTXoD8Y+LLl7yUYyFXWInpATjEcxwTVfH9V3hZmjnU=
+			7urRvJ40dsC4BRXJkKyq67ZXAbN3DhDoVKQv2TvJg/0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/MoEngageRichNotification.framework.dSYM/Contents/Resources/Relocations/x86_64/MoEngageRichNotification.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CkGnMUSwmGWAHYfquMZ44SqRFZY=
+			p/upbDNvecECsoBUA4NSROqpsN4=
 			</data>
 			<key>hash2</key>
 			<data>
-			P1gBRpAd3RK4+twk8Q9AJ/CwvhpEuUS9Zp1BeEt0w4s=
+			7i0bpUFtua2S4GHHM1zdds6Pn3v0m8zWTvhV0FP2hts=
 			</data>
 		</dict>
 	</dict>

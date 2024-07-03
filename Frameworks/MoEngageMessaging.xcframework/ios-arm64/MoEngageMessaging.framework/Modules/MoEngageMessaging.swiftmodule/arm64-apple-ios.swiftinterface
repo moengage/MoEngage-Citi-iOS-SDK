@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MoEngageMessaging
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MoEngageMessaging
 import Foundation
 import MoEngageAnalytics
 import MoEngageCore
@@ -21,7 +20,7 @@ import _SwiftConcurrencyShims
   @objc optional func notificationClicked(withScreenName screenName: Swift.String?, kvPairs: [Swift.AnyHashable : Any]?, andPushPayload userInfo: [Swift.AnyHashable : Any])
 }
 @_inheritsConvenienceInitializers @objc public class MoEngageMessagingUtils : ObjectiveC.NSObject {
-  public static func getStatsAttributes(fromPayloadDict payloadDict: Swift.Dictionary<Swift.AnyHashable, Any>) -> Swift.Dictionary<Swift.String, Any>
+  public static func getStatsAttributes(fromPayloadDict payloadDict: [Swift.AnyHashable : Any]) -> [Swift.String : Any]
   public static func addEntryToInbox(payload: MoEngageMessaging.MoEngagePushPayload, sdkInstance: MoEngageCore.MoEngageSDKInstance)
   public static func fetchAppIdFromPushPayload(payload: [Swift.AnyHashable : Any]) -> Swift.String?
   @objc override dynamic public init()
@@ -38,8 +37,10 @@ public class MoEngageMessageDelegateHandler : MoEngageCore.MoEngageMessagingHand
   @objc public func userNotificationCenterWillPresent(_ notification: UserNotifications.UNNotification?)
   @objc public func userNotificationCenterDidReceive(_ response: UserNotifications.UNNotificationResponse?)
   override public func applicationDidEnterForeground(sdkInstance: MoEngageCore.MoEngageSDKInstance)
+  override public func migrateDataFromPreviousVersions(sdkInstance: MoEngageCore.MoEngageSDKInstance)
   override public func migrateDataFromNoNEncryptionToEncryption(sdkInstance: MoEngageCore.MoEngageSDKInstance, currentSDKInstance: MoEngageCore.MoEngageSDKInstance)
   override public func logout(sdkInstance: MoEngageCore.MoEngageSDKInstance)
+  override public func migrateEnvironment(forSDK sdkInstance: MoEngageCore.MoEngageSDKInstance)
   @objc deinit
 }
 public protocol MoEngageNotificationStateProtocol {
@@ -223,7 +224,7 @@ public class MoEngageRichPush {
 }
 public class MoEngagePushPayload {
   public var pushPayload: [Swift.AnyHashable : Any]
-  public var moengageDict: Swift.Dictionary<Swift.String, Any>
+  public var moengageDict: [Swift.String : Any]
   public var mediaAttachment: Swift.String?
   public var mediaType: Swift.String?
   public var richPush: MoEngageMessaging.MoEngageRichPush?
@@ -234,8 +235,8 @@ public class MoEngagePushPayload {
   public var richLandingUrl: Swift.String?
   public var couponCode: Swift.String?
   public var inAppV2CID: Swift.String?
-  public var inAppV3Dict: Swift.Dictionary<Swift.String, Any>?
-  public var customKVPair: Swift.Dictionary<Swift.String, Any>?
+  public var inAppV3Dict: [Swift.String : Any]?
+  public var customKVPair: [Swift.String : Any]?
   public init(withPushPayload payload: [Swift.AnyHashable : Any]) throws
   @objc deinit
 }
@@ -264,7 +265,7 @@ public class MoEngagePushAction {
   public var actionName: MoEngageMessaging.MoEngageActionName?
   public var actionType: MoEngageMessaging.MoEngageActionType?
   public var value: Swift.String?
-  public var kvPairs: Swift.Dictionary<Swift.String, Any>?
+  public var kvPairs: [Swift.String : Any]?
   public init(_ actionDict: [Swift.String : Any]) throws
   @objc deinit
 }

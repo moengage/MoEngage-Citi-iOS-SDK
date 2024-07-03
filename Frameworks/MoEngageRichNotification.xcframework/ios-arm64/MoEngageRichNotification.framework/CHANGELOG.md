@@ -2,6 +2,24 @@
 ===========================
 
 ## Change Log:
+### Version 7.16.1 *(12th June 2024)*
+-------------------------------------------
+* Handled environment update with same installation.
+
+### Version 7.16.0 *(8th April 2024)*
+-------------------------------------------
+* Handled UserDefault storage limit
+
+### Version 7.15.0 *(27th February 2024)*
+-------------------------------------------
+* Refactored network layer.
+* Refactored data tracking.
+* Refactored logging.
+* BugFix - Fixed threading issue when downloading the resources.
+
+### Version 7.14.1 *(7th February 2024)*
+-------------------------------------------
+* BugFix - Fixed the unnecessary new line rendering.
 
 ### Version 7.14.0 *(23rd January 2024)*
 -------------------------------------------
