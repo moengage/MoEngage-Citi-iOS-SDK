@@ -1,3 +1,14 @@
+# 03-07-2024
+
+## MoEngage-iOS-SDK - 9.17.5
+-------------------------------------------
+* Fixed crash in decryption.
+* Updated the SDK to v9.17.5.
+
+## MoEngaeRichnotification - 7.16.1
+-------------------------------------------
+* Updated the SDK to v7.16.1.
+
 # 06-05-2024
 
 ## MoEngage-iOS-SDK - 9.15.1
