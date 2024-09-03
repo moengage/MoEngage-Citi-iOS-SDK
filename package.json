@@ -1,0 +1,43 @@
+{
+  "name": "MoEngage-iOS-SDK",
+  "version": "9.18.1",
+  "tagPrefix": "moengage-citi-",
+  "frameworksDir": "Frameworks",
+  "packages": [
+    {
+      "name": "MoEngageSecurity",
+      "version": "1.10.1",
+      "tagPrefix": "security-citi-"
+    },
+    {
+      "name": "MoEngageCore",
+      "version": "9.18.1",
+      "tagPrefix": "core-citi-"
+    },
+    {
+      "name": "MoEngageObjCUtils",
+      "version": "3.18.1",
+      "tagPrefix": "objcutils-citi-"
+    },
+    {
+      "name": "MoEngageAnalytics",
+      "version": "4.18.1",
+      "tagPrefix": "analytics-citi-"
+    },
+    {
+      "name": "MoEngageMessaging",
+      "version": "4.18.1",
+      "tagPrefix": "messaging-citi-"
+    },
+    {
+      "name": "MoEngageSDK",
+      "version": "9.18.1",
+      "tagPrefix": "sdk-citi-"
+    },
+    {
+      "name": "MoEngageRichNotification",
+      "version": "7.17.1",
+      "tagPrefix": "richPush-citi-"
+    }
+  ]
+}
