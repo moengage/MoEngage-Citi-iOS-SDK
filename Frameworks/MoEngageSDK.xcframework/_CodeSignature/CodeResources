@@ -54,7 +54,7 @@
 		</data>
 		<key>ios-arm64/dSYMs/MoEngageSDK.framework.dSYM/Contents/Resources/DWARF/MoEngageSDK</key>
 		<data>
-		sVlJdA4+AK89mTOW+ZU/vQN/2rk=
+		cUyH2y2xX/IQrxr4D/JflagSSvk=
 		</data>
 		<key>ios-arm64/dSYMs/MoEngageSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/MoEngageSDK.yml</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/MoEngageSDK.framework.dSYM/Contents/Resources/DWARF/MoEngageSDK</key>
 		<data>
-		zn6buA7H+znvuGT1+cxQuhcbCts=
+		iw5d3nkBRbfnRTClq9W8fOnoros=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/MoEngageSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/MoEngageSDK.yml</key>
 		<data>
@@ -190,7 +190,7 @@
 		</data>
 		<key>tvos-arm64/dSYMs/MoEngageSDK.framework.dSYM/Contents/Resources/DWARF/MoEngageSDK</key>
 		<data>
-		JqtNLLCxYS/RTng8LtTCC8BGgqk=
+		EBXlNc+sX1bOK7xy+cTxO+gKHBE=
 		</data>
 		<key>tvos-arm64/dSYMs/MoEngageSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/MoEngageSDK.yml</key>
 		<data>
@@ -266,7 +266,7 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/dSYMs/MoEngageSDK.framework.dSYM/Contents/Resources/DWARF/MoEngageSDK</key>
 		<data>
-		YtULQcIUvlz82IyZLDwBq8u4AMY=
+		oTJl08moQqkcs1KQlOjkC08jvkI=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/dSYMs/MoEngageSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/MoEngageSDK.yml</key>
 		<data>
@@ -415,11 +415,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sVlJdA4+AK89mTOW+ZU/vQN/2rk=
+			cUyH2y2xX/IQrxr4D/JflagSSvk=
 			</data>
 			<key>hash2</key>
 			<data>
-			TqnHjfKoxiYZfUG3WeEA9jP9Mzu1GRu6J11uaOMuBxg=
+			bfqrSbObvROGJEW8tCsdgIBicu0aEX3+76+FUV175ms=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/MoEngageSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/MoEngageSDK.yml</key>
@@ -624,11 +624,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zn6buA7H+znvuGT1+cxQuhcbCts=
+			iw5d3nkBRbfnRTClq9W8fOnoros=
 			</data>
 			<key>hash2</key>
 			<data>
-			550pT6YX5Q2qxKy6LVCsbqTQjzLkZdNMPAEFnkNLdF0=
+			34C0I7+j1nRL0oDMtyMHfm9ie67pTUYTF8UWl3JSCFM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/MoEngageSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/MoEngageSDK.yml</key>
@@ -789,11 +789,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JqtNLLCxYS/RTng8LtTCC8BGgqk=
+			EBXlNc+sX1bOK7xy+cTxO+gKHBE=
 			</data>
 			<key>hash2</key>
 			<data>
-			CtNh7Wk250my1tTp+WUqSiYh5/NaIXcHtzIHVuBSVWc=
+			bd+Fm3uR7F59PvF+goFGx/vbclofxe2HnJjkKIFWyMM=
 			</data>
 		</dict>
 		<key>tvos-arm64/dSYMs/MoEngageSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/MoEngageSDK.yml</key>
@@ -998,11 +998,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YtULQcIUvlz82IyZLDwBq8u4AMY=
+			oTJl08moQqkcs1KQlOjkC08jvkI=
 			</data>
 			<key>hash2</key>
 			<data>
-			4cTcb6PZNk7T9gzRsDXQXcFK7gAvdo9u39J7Y+yS+Xo=
+			mneZJxuOFjeYzsxPtKCO0XhLLcIyTpxZa9ul4SPOHbo=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/dSYMs/MoEngageSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/MoEngageSDK.yml</key>
