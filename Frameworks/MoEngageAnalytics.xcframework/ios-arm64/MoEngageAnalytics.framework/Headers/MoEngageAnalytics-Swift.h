@@ -278,8 +278,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import Foundation;
-@import MoEngageCore;
-@import MoEngageObjCUtils;
 @import ObjectiveC;
 #endif
 
@@ -301,14 +299,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-
-SWIFT_RESILIENT_CLASS("_TtC17MoEngageAnalytics35MoEngageAnalyticsBatchSyncOperation")
-@interface MoEngageAnalyticsBatchSyncOperation : MoEngageAsyncOperation
-- (void)main;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
 @class MoEngageAccountMeta;
 
 /// Protocol for all Analytics related Events
@@ -331,17 +321,8 @@ SWIFT_CLASS("_TtC17MoEngageAnalytics21MoEngageAnalyticsData")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSURL;
-
-/// This class is used for internal purpose. Do not use any of the methods explicitly.
-/// :nodoc:
-SWIFT_RESILIENT_CLASS("_TtC17MoEngageAnalytics32MoEngageAnalyticsDelegateHandler")
-@interface MoEngageAnalyticsDelegateHandler : MoEngageAnalyticsDelegate <MoEngageAppDelegateAnalyticsProxyProtocol>
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (void)handleOpenURL:(NSURL * _Nonnull)url;
-@end
-
 @class NSString;
+@class MoEngageSDKInstance;
 
 /// :nodoc:
 SWIFT_CLASS("_TtC17MoEngageAnalytics24MoEngageAnalyticsHandler")
@@ -354,6 +335,18 @@ SWIFT_CLASS("_TtC17MoEngageAnalytics24MoEngageAnalyticsHandler")
 /// \param appID MoEngage Account Identifier
 ///
 + (void)setUserAttributeBool:(BOOL)value withAttributeName:(NSString * _Nonnull)attributeName forAppID:(NSString * _Nullable)appID;
+/// Update push opt-in device attribute status.
+/// \param status The updated status.
+///
+/// \param appId The application identifier update is perfomed for.
+///
++ (void)pushOptInStatusUpdatedTo:(BOOL)status forSdkInstance:(MoEngageSDKInstance * _Nonnull)sdkInstance;
+/// Update provisional push opt-in device attribute status.
+/// \param status The updated status.
+///
+/// \param appId The application identifier update is perfomed for.
+///
++ (void)pushProvisionalStatusUpdatedTo:(BOOL)status forSdkInstance:(MoEngageSDKInstance * _Nonnull)sdkInstance;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -379,15 +372,6 @@ SWIFT_CLASS("_TtC17MoEngageAnalytics19MoEngageGeoLocation")
 /// \param lng Longitude of the location
 ///
 - (nonnull instancetype)initWithLatitude:(double)lat andLongitude:(double)lng OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-/// Owns the entire payload to be synced  and performs batch wise  (in order of date created) serial syncing by creating BatchSyncOperation
-SWIFT_RESILIENT_CLASS("_TtC17MoEngageAnalytics29MoEngageGroupSyncSynchronizer")
-@interface MoEngageGroupSyncSynchronizer : MoEngageAsyncOperation
-- (void)main;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -443,6 +427,7 @@ SWIFT_CLASS("_TtC17MoEngageAnalytics18MoEngageProperties")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class NSURL;
 enum MoEngageUserGender : NSInteger;
 
 /// Class to track data on the MoEngage Platform.
@@ -466,6 +451,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageSDKA
 /// \param appID MoEngage Account Identifier.
 ///
 - (void)appStatus:(enum MoEngageAppStatus)appStatus forAppID:(NSString * _Nullable)appID;
+/// This method tells the default SDK instance whether it is a fresh install or an existing application was updated.
+/// \param appStatus Enum of type <code>MoEngageAppStatus</code>
+///
+- (void)appStatus:(enum MoEngageAppStatus)appStatus;
 /// Track Event for Default MoEngage Instance.
 /// \param name name of the event
 ///

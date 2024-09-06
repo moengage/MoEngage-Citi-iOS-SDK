@@ -278,11 +278,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import Foundation;
-@import MoEngageCore;
-@import MoEngageObjCUtils;
 @import ObjectiveC;
 @import UIKit;
-@import UserNotifications;
 #endif
 
 #endif
@@ -303,27 +300,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class UNUserNotificationCenter;
-@class UNNotificationResponse;
-@class UNNotification;
-@class NSData;
-@class NSObject;
-
-/// This class is used for internal purpose. Do not use any of the methods explicitly.
-/// :nodoc:
-SWIFT_RESILIENT_CLASS("_TtC17MoEngageMessaging30MoEngageMessageDelegateHandler") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface MoEngageMessageDelegateHandler : MoEngageMessagingHandler <MoEngageAppDelegateMessagingProxyProtocol, UNUserNotificationCenterDelegate>
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center didReceiveNotificationResponse:(UNNotificationResponse * _Nonnull)response withCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
-- (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center willPresentNotification:(UNNotification * _Nonnull)notification withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
-- (void)applicationDidRegisterForRemoteNotificationsWithDeviceToken:(NSData * _Nullable)deviceToken;
-- (void)applicationDidFailToRegisterForRemoteNotificationsWithError:(NSError * _Nullable)error;
-- (void)applicationDidReceiveRemoteNotification:(NSDictionary * _Nullable)userInfo;
-- (void)userNotificationCenterWillPresent:(UNNotification * _Nullable)notification;
-- (void)userNotificationCenterDidReceive:(UNNotificationResponse * _Nullable)response;
-@end
-
 @class NSString;
+@class NSObject;
 
 /// An interface for processing  various notification actions.
 SWIFT_PROTOCOL("_TtP17MoEngageMessaging25MoEngageMessagingDelegate_")
@@ -357,6 +335,23 @@ SWIFT_PROTOCOL("_TtP17MoEngageMessaging25MoEngageMessagingDelegate_")
 - (void)notificationClickedWithScreenName:(NSString * _Nullable)screenName kvPairs:(NSDictionary * _Nullable)kvPairs andPushPayload:(NSDictionary * _Nonnull)userInfo;
 @end
 
+@class MoEngageSDKInstance;
+
+SWIFT_CLASS("_TtC17MoEngageMessaging34MoEngageMessagingPermissionHandler")
+@interface MoEngageMessagingPermissionHandler : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageMessagingPermissionHandler * _Nonnull shared;)
++ (MoEngageMessagingPermissionHandler * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+/// Check if device opted-in for push notification.
+/// \param sdkInstance The instance of SDK push permission checked for.
+///
+///
+/// returns:
+/// Whether push permission is provided.
+- (BOOL)isPushOptedInForInstance:(MoEngageSDKInstance * _Nonnull)sdkInstance SWIFT_WARN_UNUSED_RESULT;
+@end
+
 
 /// :nodoc:
 SWIFT_CLASS("_TtC17MoEngageMessaging22MoEngageMessagingUtils")
@@ -365,6 +360,11 @@ SWIFT_CLASS("_TtC17MoEngageMessaging22MoEngageMessagingUtils")
 @end
 
 @class UNNotificationCategory;
+@protocol UNUserNotificationCenterDelegate;
+@class NSData;
+@class UNUserNotificationCenter;
+@class UNNotification;
+@class UNNotificationResponse;
 @class UIApplication;
 
 /// Class responsible for Push integration
@@ -380,7 +380,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageSDKM
 ///
 /// \param delegate The interface for handling incoming notifications and notification-related actions.
 ///
-- (void)registerForRemoteNotificationWithCategories:(NSSet<UNNotificationCategory *> * _Nullable)categories andUserNotificationCenterDelegate:(id <UNUserNotificationCenterDelegate> _Nullable)delegate SWIFT_AVAILABILITY(tvos,unavailable);
+- (void)registerForRemoteNotificationWithCategories:(NSSet<UNNotificationCategory *> * _Nullable)categories andUserNotificationCenterDelegate:(id <UNUserNotificationCenterDelegate> _Nullable)delegate SWIFT_AVAILABILITY(ios_app_extension,unavailable) SWIFT_AVAILABILITY(tvos,unavailable);
+/// Method to register for provisional push permission.
+/// \param categories A type of notification your app supports and the custom actions that the system displays.
+///
+/// \param delegate The interface for handling incoming notifications and notification-related actions.
+///
+- (void)registerForRemoteProvisionalNotificationWithCategories:(NSSet<UNNotificationCategory *> * _Nullable)categories andUserNotificationCenterDelegate:(id <UNUserNotificationCenterDelegate> _Nullable)delegate SWIFT_AVAILABILITY(ios_app_extension,introduced=12.0) SWIFT_AVAILABILITY(ios_app_extension,unavailable) SWIFT_AVAILABILITY(tvos,unavailable);
 /// Method to add the notification categories to the existing list of <code>MOE_DISMISS_CATEGORY</code> and <code>MOE_PUSH_TEMPLATE</code> category.
 /// \param categories Set of categories.
 ///
@@ -457,6 +463,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageSDKM
 /// returns:
 /// true if notification belongs to MoEngage else false.
 - (BOOL)isPushFromMoEngageWithPayload:(NSDictionary * _Nonnull)payload SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(tvos,unavailable);
+/// Navigate to push permission settings page
+- (void)navigateToPushSettings SWIFT_AVAILABILITY(ios_app_extension,unavailable);
 @end
 
 #endif
@@ -747,11 +755,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import Foundation;
-@import MoEngageCore;
-@import MoEngageObjCUtils;
 @import ObjectiveC;
 @import UIKit;
-@import UserNotifications;
 #endif
 
 #endif
@@ -772,27 +777,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class UNUserNotificationCenter;
-@class UNNotificationResponse;
-@class UNNotification;
-@class NSData;
-@class NSObject;
-
-/// This class is used for internal purpose. Do not use any of the methods explicitly.
-/// :nodoc:
-SWIFT_RESILIENT_CLASS("_TtC17MoEngageMessaging30MoEngageMessageDelegateHandler") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface MoEngageMessageDelegateHandler : MoEngageMessagingHandler <MoEngageAppDelegateMessagingProxyProtocol, UNUserNotificationCenterDelegate>
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center didReceiveNotificationResponse:(UNNotificationResponse * _Nonnull)response withCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
-- (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center willPresentNotification:(UNNotification * _Nonnull)notification withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
-- (void)applicationDidRegisterForRemoteNotificationsWithDeviceToken:(NSData * _Nullable)deviceToken;
-- (void)applicationDidFailToRegisterForRemoteNotificationsWithError:(NSError * _Nullable)error;
-- (void)applicationDidReceiveRemoteNotification:(NSDictionary * _Nullable)userInfo;
-- (void)userNotificationCenterWillPresent:(UNNotification * _Nullable)notification;
-- (void)userNotificationCenterDidReceive:(UNNotificationResponse * _Nullable)response;
-@end
-
 @class NSString;
+@class NSObject;
 
 /// An interface for processing  various notification actions.
 SWIFT_PROTOCOL("_TtP17MoEngageMessaging25MoEngageMessagingDelegate_")
@@ -826,6 +812,23 @@ SWIFT_PROTOCOL("_TtP17MoEngageMessaging25MoEngageMessagingDelegate_")
 - (void)notificationClickedWithScreenName:(NSString * _Nullable)screenName kvPairs:(NSDictionary * _Nullable)kvPairs andPushPayload:(NSDictionary * _Nonnull)userInfo;
 @end
 
+@class MoEngageSDKInstance;
+
+SWIFT_CLASS("_TtC17MoEngageMessaging34MoEngageMessagingPermissionHandler")
+@interface MoEngageMessagingPermissionHandler : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageMessagingPermissionHandler * _Nonnull shared;)
++ (MoEngageMessagingPermissionHandler * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+/// Check if device opted-in for push notification.
+/// \param sdkInstance The instance of SDK push permission checked for.
+///
+///
+/// returns:
+/// Whether push permission is provided.
+- (BOOL)isPushOptedInForInstance:(MoEngageSDKInstance * _Nonnull)sdkInstance SWIFT_WARN_UNUSED_RESULT;
+@end
+
 
 /// :nodoc:
 SWIFT_CLASS("_TtC17MoEngageMessaging22MoEngageMessagingUtils")
@@ -834,6 +837,11 @@ SWIFT_CLASS("_TtC17MoEngageMessaging22MoEngageMessagingUtils")
 @end
 
 @class UNNotificationCategory;
+@protocol UNUserNotificationCenterDelegate;
+@class NSData;
+@class UNUserNotificationCenter;
+@class UNNotification;
+@class UNNotificationResponse;
 @class UIApplication;
 
 /// Class responsible for Push integration
@@ -849,7 +857,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageSDKM
 ///
 /// \param delegate The interface for handling incoming notifications and notification-related actions.
 ///
-- (void)registerForRemoteNotificationWithCategories:(NSSet<UNNotificationCategory *> * _Nullable)categories andUserNotificationCenterDelegate:(id <UNUserNotificationCenterDelegate> _Nullable)delegate SWIFT_AVAILABILITY(tvos,unavailable);
+- (void)registerForRemoteNotificationWithCategories:(NSSet<UNNotificationCategory *> * _Nullable)categories andUserNotificationCenterDelegate:(id <UNUserNotificationCenterDelegate> _Nullable)delegate SWIFT_AVAILABILITY(ios_app_extension,unavailable) SWIFT_AVAILABILITY(tvos,unavailable);
+/// Method to register for provisional push permission.
+/// \param categories A type of notification your app supports and the custom actions that the system displays.
+///
+/// \param delegate The interface for handling incoming notifications and notification-related actions.
+///
+- (void)registerForRemoteProvisionalNotificationWithCategories:(NSSet<UNNotificationCategory *> * _Nullable)categories andUserNotificationCenterDelegate:(id <UNUserNotificationCenterDelegate> _Nullable)delegate SWIFT_AVAILABILITY(ios_app_extension,introduced=12.0) SWIFT_AVAILABILITY(ios_app_extension,unavailable) SWIFT_AVAILABILITY(tvos,unavailable);
 /// Method to add the notification categories to the existing list of <code>MOE_DISMISS_CATEGORY</code> and <code>MOE_PUSH_TEMPLATE</code> category.
 /// \param categories Set of categories.
 ///
@@ -926,6 +940,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageSDKM
 /// returns:
 /// true if notification belongs to MoEngage else false.
 - (BOOL)isPushFromMoEngageWithPayload:(NSDictionary * _Nonnull)payload SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(tvos,unavailable);
+/// Navigate to push permission settings page
+- (void)navigateToPushSettings SWIFT_AVAILABILITY(ios_app_extension,unavailable);
 @end
 
 #endif

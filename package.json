@@ -39,5 +39,6 @@
       "version": "7.18.0",
       "tagPrefix": "richPush-citi-"
     }
-  ]
+  ],
+  "blacklisted": null
 }
