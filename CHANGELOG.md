@@ -42,6 +42,22 @@ Improvements
 #### RichNotification
 Improvements
     * Refactor threading and queueing
+    
+# 01-08-2024  
+
+## Version 9.18.1
+-------------------------------------------
+* Fixed Swift Package Resolution
+
+# 31-07-2024
+
+### Version 9.18.0
+-------------------------------------------
+* Internal improvements
+
+#### Core
+* Added secondary domain config when primary domain blocked.
+* Deprecated SDK provided SSL Pinning in favour of [OS provided one](https://developer.apple.com/documentation/bundleresources/information_property_list/nsapptransportsecurity/nspinneddomains).
 
 # 03-07-2024
 
