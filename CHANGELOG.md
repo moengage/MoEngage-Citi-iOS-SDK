@@ -1,3 +1,48 @@
+
+# 06-09-2024
+
+## MoEngage-iOS-SDK - 9.19.0
+-------------------------------------------
+
+#### Core
+Whats New
+    * Cards fetch on login support added.
+    * Multiple self handled inapps support.
+
+Improvements
+    * Expose app install/update API without appId input
+    * Revamp storage access
+    * Refactor threading and queueing
+Fixes
+    * Fixed previous instance deinitialization when default instance changed.
+    * in-memory data not getting cleared on disable data tracking
+    * Source tracking happening before flush
+    * Device type not getting tracked after data tracking re-enabled from disabled
+    * Analytics batch data migration from 8.7.0
+    * User getting reset while on disabled state
+    * API calls not happening when application is killed and relaunched with SDK state enabled from disabled state.
+    * No data tracked post tracking restricted unique id
+    * No data tracked post tracking invalid timestamp or location
+    * Inconsistency with unique id validation
+
+#### Analytics
+Whats New
+    * Cards fetch on login support added.
+Improvements
+    * Cleaned remoteconfig whitelisted events.
+    * Added push opt-in device attribute tracking.
+
+#### Messaging
+Whats New
+    * Added support for Provisional Push.
+Improvements
+    * Refactor threading and queueing
+    * Added push opt-in device attribute and events tracking and navigate to settings page API.
+
+#### RichNotification
+Improvements
+    * Refactor threading and queueing
+
 # 03-07-2024
 
 ## MoEngage-iOS-SDK - 9.17.5
