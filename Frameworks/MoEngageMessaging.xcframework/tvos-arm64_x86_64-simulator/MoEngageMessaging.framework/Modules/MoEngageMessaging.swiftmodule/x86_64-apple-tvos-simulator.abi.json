@@ -139,7 +139,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17MoEngageMessaging0aB22MessageDelegateHandlerC22userNotificationCenter_11willPresent014withCompletionF0ySo06UNUserhI0C_So14UNNotificationCySo0O19PresentationOptionsVctF",
+            "usr": "c:@M@MoEngageMessaging@objc(cs)MoEngageMessageDelegateHandler(im)userNotificationCenter:willPresentNotification:withCompletionHandler:",
             "mangledName": "$s17MoEngageMessaging0aB22MessageDelegateHandlerC22userNotificationCenter_11willPresent014withCompletionF0ySo06UNUserhI0C_So14UNNotificationCySo0O19PresentationOptionsVctF",
             "moduleName": "MoEngageMessaging",
             "objc_name": "userNotificationCenter:willPresentNotification:withCompletionHandler:",
@@ -175,7 +175,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17MoEngageMessaging0aB22MessageDelegateHandlerC44applicationDidRegisterForRemoteNotifications15withDeviceTokeny10Foundation4DataVSg_tF",
+            "usr": "c:@M@MoEngageMessaging@objc(cs)MoEngageMessageDelegateHandler(im)applicationDidRegisterForRemoteNotificationsWithDeviceToken:",
             "mangledName": "$s17MoEngageMessaging0aB22MessageDelegateHandlerC44applicationDidRegisterForRemoteNotifications15withDeviceTokeny10Foundation4DataVSg_tF",
             "moduleName": "MoEngageMessaging",
             "objc_name": "applicationDidRegisterForRemoteNotificationsWithDeviceToken:",
@@ -211,7 +211,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17MoEngageMessaging0aB22MessageDelegateHandlerC59applicationDidFailToRegisterForRemoteNotificationsWithErroryys0P0_pSgF",
+            "usr": "c:@M@MoEngageMessaging@objc(cs)MoEngageMessageDelegateHandler(im)applicationDidFailToRegisterForRemoteNotificationsWithError:",
             "mangledName": "$s17MoEngageMessaging0aB22MessageDelegateHandlerC59applicationDidFailToRegisterForRemoteNotificationsWithErroryys0P0_pSgF",
             "moduleName": "MoEngageMessaging",
             "objc_name": "applicationDidFailToRegisterForRemoteNotificationsWithError:",
@@ -260,7 +260,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17MoEngageMessaging0aB22MessageDelegateHandlerC39applicationDidReceiveRemoteNotificationyySDys11AnyHashableVypGSgF",
+            "usr": "c:@M@MoEngageMessaging@objc(cs)MoEngageMessageDelegateHandler(im)applicationDidReceiveRemoteNotification:",
             "mangledName": "$s17MoEngageMessaging0aB22MessageDelegateHandlerC39applicationDidReceiveRemoteNotificationyySDys11AnyHashableVypGSgF",
             "moduleName": "MoEngageMessaging",
             "objc_name": "applicationDidReceiveRemoteNotification:",
@@ -296,7 +296,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17MoEngageMessaging0aB22MessageDelegateHandlerC33userNotificationCenterWillPresentyySo14UNNotificationCSgF",
+            "usr": "c:@M@MoEngageMessaging@objc(cs)MoEngageMessageDelegateHandler(im)userNotificationCenterWillPresent:",
             "mangledName": "$s17MoEngageMessaging0aB22MessageDelegateHandlerC33userNotificationCenterWillPresentyySo14UNNotificationCSgF",
             "moduleName": "MoEngageMessaging",
             "objc_name": "userNotificationCenterWillPresent:",
@@ -485,13 +485,14 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:17MoEngageMessaging0aB22MessageDelegateHandlerC",
+        "usr": "c:@M@MoEngageMessaging@objc(cs)MoEngageMessageDelegateHandler",
         "mangledName": "$s17MoEngageMessaging0aB22MessageDelegateHandlerC",
         "moduleName": "MoEngageMessaging",
         "declAttributes": [
           "AccessControl",
           "Available",
-          "RawDocComment"
+          "RawDocComment",
+          "ObjC"
         ],
         "superclassUsr": "c:@M@MoEngageCore@objc(cs)MoEngageMessagingHandler",
         "hasMissingDesignatedInitializers": true,

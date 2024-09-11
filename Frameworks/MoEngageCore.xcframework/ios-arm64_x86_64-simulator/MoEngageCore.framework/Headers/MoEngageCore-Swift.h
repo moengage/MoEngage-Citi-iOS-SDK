@@ -771,6 +771,29 @@ SWIFT_CLASS("_TtC12MoEngageCore37MoEngageEncryptedStandardUserDefaults")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+/// Environment of the SDK
+typedef SWIFT_ENUM(NSInteger, MoEngageEnvironment, open) {
+/// SDK points to live environment
+  MoEngageEnvironmentLive = 0,
+/// SDK points to test environment
+  MoEngageEnvironmentTest = 1,
+};
+
+
+/// / Model class to support environmet configuration
+SWIFT_CLASS("_TtC12MoEngageCore25MoEngageEnvironmentConfig")
+@interface MoEngageEnvironmentConfig : NSObject
+@property (nonatomic) enum MoEngageEnvironment environment;
+/// Sets the default config
++ (MoEngageEnvironmentConfig * _Nonnull)defaultConfig SWIFT_WARN_UNUSED_RESULT;
+/// Creates an instance of <code>MoEngageEnvironmentConfig</code>
+/// \param environment <code>MoEngageEnvironment</code>
+///
+- (nonnull instancetype)initWithEnvironment:(enum MoEngageEnvironment)environment OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 SWIFT_CLASS("_TtC12MoEngageCore22MoEngageEventCondition")
 @interface MoEngageEventCondition : NSObject
@@ -1426,6 +1449,8 @@ SWIFT_CLASS("_TtC12MoEngageCore17MoEngageSDKConfig")
 @property (nonatomic, strong) MoEngageNetworkRequestConfig * _Nonnull networkConfig;
 /// Configuration for Console Log
 @property (nonatomic, strong) MoEngageConsoleLogConfig * _Nonnull consoleLogConfig;
+/// Configuration for Environment
+@property (nonatomic, strong) MoEngageEnvironmentConfig * _Nonnull environmentConfig;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 /// Initialize instance of MoEngageSDKConfig
@@ -2576,6 +2601,29 @@ SWIFT_CLASS("_TtC12MoEngageCore37MoEngageEncryptedStandardUserDefaults")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+/// Environment of the SDK
+typedef SWIFT_ENUM(NSInteger, MoEngageEnvironment, open) {
+/// SDK points to live environment
+  MoEngageEnvironmentLive = 0,
+/// SDK points to test environment
+  MoEngageEnvironmentTest = 1,
+};
+
+
+/// / Model class to support environmet configuration
+SWIFT_CLASS("_TtC12MoEngageCore25MoEngageEnvironmentConfig")
+@interface MoEngageEnvironmentConfig : NSObject
+@property (nonatomic) enum MoEngageEnvironment environment;
+/// Sets the default config
++ (MoEngageEnvironmentConfig * _Nonnull)defaultConfig SWIFT_WARN_UNUSED_RESULT;
+/// Creates an instance of <code>MoEngageEnvironmentConfig</code>
+/// \param environment <code>MoEngageEnvironment</code>
+///
+- (nonnull instancetype)initWithEnvironment:(enum MoEngageEnvironment)environment OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 SWIFT_CLASS("_TtC12MoEngageCore22MoEngageEventCondition")
 @interface MoEngageEventCondition : NSObject
@@ -3231,6 +3279,8 @@ SWIFT_CLASS("_TtC12MoEngageCore17MoEngageSDKConfig")
 @property (nonatomic, strong) MoEngageNetworkRequestConfig * _Nonnull networkConfig;
 /// Configuration for Console Log
 @property (nonatomic, strong) MoEngageConsoleLogConfig * _Nonnull consoleLogConfig;
+/// Configuration for Environment
+@property (nonatomic, strong) MoEngageEnvironmentConfig * _Nonnull environmentConfig;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 /// Initialize instance of MoEngageSDKConfig

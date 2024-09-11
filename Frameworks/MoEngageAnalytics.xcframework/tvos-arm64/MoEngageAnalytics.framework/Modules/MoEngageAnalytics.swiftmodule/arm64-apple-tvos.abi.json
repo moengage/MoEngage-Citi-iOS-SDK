@@ -309,7 +309,7 @@
                     "kind": "TypeNominal",
                     "name": "MoEngageAnalyticsDelegateHandler",
                     "printedName": "MoEngageAnalytics.MoEngageAnalyticsDelegateHandler",
-                    "usr": "s:17MoEngageAnalytics0abC15DelegateHandlerC"
+                    "usr": "c:@M@MoEngageAnalytics@objc(cs)MoEngageAnalyticsDelegateHandler"
                   }
                 ],
                 "usr": "s:Sq"
@@ -342,7 +342,7 @@
                         "kind": "TypeNominal",
                         "name": "MoEngageAnalyticsDelegateHandler",
                         "printedName": "MoEngageAnalytics.MoEngageAnalyticsDelegateHandler",
-                        "usr": "s:17MoEngageAnalytics0abC15DelegateHandlerC"
+                        "usr": "c:@M@MoEngageAnalytics@objc(cs)MoEngageAnalyticsDelegateHandler"
                       }
                     ],
                     "usr": "s:Sq"
@@ -378,7 +378,7 @@
                         "kind": "TypeNominal",
                         "name": "MoEngageAnalyticsDelegateHandler",
                         "printedName": "MoEngageAnalytics.MoEngageAnalyticsDelegateHandler",
-                        "usr": "s:17MoEngageAnalytics0abC15DelegateHandlerC"
+                        "usr": "c:@M@MoEngageAnalytics@objc(cs)MoEngageAnalyticsDelegateHandler"
                       }
                     ],
                     "usr": "s:Sq"
@@ -465,7 +465,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17MoEngageAnalytics0abC15DelegateHandlerC13handleOpenURLyy10Foundation0H0VF",
+            "usr": "c:@M@MoEngageAnalytics@objc(cs)MoEngageAnalyticsDelegateHandler(im)handleOpenURL:",
             "mangledName": "$s17MoEngageAnalytics0abC15DelegateHandlerC13handleOpenURLyy10Foundation0H0VF",
             "moduleName": "MoEngageAnalytics",
             "objc_name": "handleOpenURL:",
@@ -923,12 +923,13 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:17MoEngageAnalytics0abC15DelegateHandlerC",
+        "usr": "c:@M@MoEngageAnalytics@objc(cs)MoEngageAnalyticsDelegateHandler",
         "mangledName": "$s17MoEngageAnalytics0abC15DelegateHandlerC",
         "moduleName": "MoEngageAnalytics",
         "declAttributes": [
           "AccessControl",
-          "RawDocComment"
+          "RawDocComment",
+          "ObjC"
         ],
         "superclassUsr": "c:@M@MoEngageCore@objc(cs)MoEngageAnalyticsDelegate",
         "hasMissingDesignatedInitializers": true,
