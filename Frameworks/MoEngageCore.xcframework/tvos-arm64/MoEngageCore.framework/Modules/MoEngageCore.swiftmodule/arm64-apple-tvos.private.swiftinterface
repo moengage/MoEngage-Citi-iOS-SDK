@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-tvos11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MoEngageCore
+// swift-module-flags: -target arm64-apple-tvos14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MoEngageCore
 import CommonCrypto
 import Foundation
 import ImageIO
@@ -552,6 +552,21 @@ public struct MoEngageDeviceEntryUtils {
   public static func shouldResetStorageData(sdkConfig: MoEngageCore.MoEngageSDKConfig) -> Swift.Bool
   public static func fetchCurrentNetworkEncryptionKey(sdkInstance: MoEngageCore.MoEngageSDKInstance) -> Swift.String?
   public static func getCurrentNetworkEncryptionStateFromAppGroupId(sdkConfig: MoEngageCore.MoEngageSDKConfig) -> Swift.Bool
+  @objc deinit
+}
+@objc public enum MoEngageEnvironment : Swift.Int {
+  case live
+  case test
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class MoEngageEnvironmentConfig : ObjectiveC.NSObject {
+  @objc public var environment: MoEngageCore.MoEngageEnvironment
+  @objc public static func defaultConfig() -> MoEngageCore.MoEngageEnvironmentConfig
+  @objc public init(environment: MoEngageCore.MoEngageEnvironment)
   @objc deinit
 }
 public struct MoEngageEnvironmentMigrationHandler : MoEngageCore.MoEngageEnvironmentMigrationHandlerProtocol {
@@ -1230,6 +1245,7 @@ extension MoEngageCore.MoEngageSDKCommonData {
   @objc public var userRegistrationConfig: MoEngageCore.MoEngageUserRegistrationConfig
   @objc public var networkConfig: MoEngageCore.MoEngageNetworkRequestConfig
   @objc public var consoleLogConfig: MoEngageCore.MoEngageConsoleLogConfig
+  @objc public var environmentConfig: MoEngageCore.MoEngageEnvironmentConfig
   @objc public init(appId: Swift.String, dataCenter: MoEngageCore.MoEngageDataCenter)
   @available(*, deprecated, message: "This method is deprecated in favour of constructor with data center parameter. This constructor would be removed in version 11.0.0 version of the SDK.")
   @objc convenience public init(withAppID appID: Swift.String)
@@ -1265,6 +1281,7 @@ public typealias UserInfoHandler = (MoEngageCore.MoEngageUserInformation) -> Swi
   final public var deviceTypeTracked: Swift.Bool
   final public var trackedIDFA: Swift.String?
   final public var metaData: [Swift.String : Any]
+  final public var environment: Swift.Int?
   public init()
   public init(from decoder: any Swift.Decoder) throws
   final public func encode(to encoder: any Swift.Encoder) throws
@@ -1439,6 +1456,9 @@ extension MoEngageCore.MoEngageExceptions : Swift.Hashable {}
 extension MoEngageCore.MoEngageDataCenter : Swift.Equatable {}
 extension MoEngageCore.MoEngageDataCenter : Swift.Hashable {}
 extension MoEngageCore.MoEngageDataCenter : Swift.RawRepresentable {}
+extension MoEngageCore.MoEngageEnvironment : Swift.Equatable {}
+extension MoEngageCore.MoEngageEnvironment : Swift.Hashable {}
+extension MoEngageCore.MoEngageEnvironment : Swift.RawRepresentable {}
 extension MoEngageCore.MoEngageLoggerType : Swift.Equatable {}
 extension MoEngageCore.MoEngageLoggerType : Swift.Hashable {}
 extension MoEngageCore.MoEngageLoggerType : Swift.RawRepresentable {}

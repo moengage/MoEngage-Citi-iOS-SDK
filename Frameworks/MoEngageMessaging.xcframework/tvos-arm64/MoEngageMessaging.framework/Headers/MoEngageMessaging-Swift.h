@@ -278,8 +278,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import Foundation;
+@import MoEngageCore;
+@import MoEngageObjCUtils;
 @import ObjectiveC;
 @import UIKit;
+@import UserNotifications;
 #endif
 
 #endif
@@ -300,8 +303,25 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class NSString;
+@class UNUserNotificationCenter;
+@class UNNotification;
+@class NSData;
 @class NSObject;
+
+/// This class is used for internal purpose. Do not use any of the methods explicitly.
+/// :nodoc:
+SWIFT_RESILIENT_CLASS("_TtC17MoEngageMessaging30MoEngageMessageDelegateHandler") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
+@interface MoEngageMessageDelegateHandler : MoEngageMessagingHandler <MoEngageAppDelegateMessagingProxyProtocol, UNUserNotificationCenterDelegate>
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center willPresentNotification:(UNNotification * _Nonnull)notification withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
+- (void)applicationDidRegisterForRemoteNotificationsWithDeviceToken:(NSData * _Nullable)deviceToken;
+- (void)applicationDidFailToRegisterForRemoteNotificationsWithError:(NSError * _Nullable)error;
+- (void)applicationDidReceiveRemoteNotification:(NSDictionary * _Nullable)userInfo;
+- (void)userNotificationCenterWillPresent:(UNNotification * _Nullable)notification;
+@end
+
+@class NSString;
 
 /// An interface for processing  various notification actions.
 SWIFT_PROTOCOL("_TtP17MoEngageMessaging25MoEngageMessagingDelegate_")
@@ -360,10 +380,6 @@ SWIFT_CLASS("_TtC17MoEngageMessaging22MoEngageMessagingUtils")
 @end
 
 @class UNNotificationCategory;
-@protocol UNUserNotificationCenterDelegate;
-@class NSData;
-@class UNUserNotificationCenter;
-@class UNNotification;
 @class UNNotificationResponse;
 @class UIApplication;
 
