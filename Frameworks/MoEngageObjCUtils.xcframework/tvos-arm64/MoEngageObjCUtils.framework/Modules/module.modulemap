@@ -1,7 +1,7 @@
 framework module MoEngageObjCUtils {
-  umbrella header "MoEngageObjCUtils-framework-tvOS-umbrella.h"
-
+  umbrella header "MoEngageObjCUtils.h"
   export *
+
   module * { export * }
 }
 

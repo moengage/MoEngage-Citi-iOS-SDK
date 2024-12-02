@@ -4,7 +4,6 @@
 import Foundation
 import MoEngageAnalytics
 import MoEngageCore
-import MoEngageMessaging
 @_exported import MoEngageSDK
 import Swift
 import _Concurrency

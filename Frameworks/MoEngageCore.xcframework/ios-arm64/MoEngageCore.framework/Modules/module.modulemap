@@ -1,7 +1,7 @@
 framework module MoEngageCore {
-  umbrella header "MoEngageCore-framework-iOS-umbrella.h"
-
+  umbrella header "MoEngageCore.h"
   export *
+
   module * { export * }
 }
 
