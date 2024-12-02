@@ -20,13 +20,9 @@
 		<data>
 		Zvb08HReuj4gxhPSAnMktpxScsM=
 		</data>
-		<key>Headers/MoEngageObjCUtils-framework-iOS-umbrella.h</key>
-		<data>
-		1Cz7DBaRKUNGlMn9ijevguPCzh0=
-		</data>
 		<key>Headers/MoEngageObjCUtils.h</key>
 		<data>
-		GN+pLXDndOrW8a47SELYNVb2Bkw=
+		QdTaWgS0O5iS2kgiO5jj01Q/rpk=
 		</data>
 		<key>Headers/MoEngageProxyUtils.h</key>
 		<data>
@@ -34,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MQuZjbMZi03xKQ6EqzDOSNomyKI=
+		LUuFpNk6fgDcy22PEPxcrkjm1H0=
 		</data>
 		<key>Modules/MoEngageObjCUtils.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +50,7 @@
 		</data>
 		<key>Modules/MoEngageObjCUtils.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XWl1B039xhpM1jAd7jqtJa0fbpg=
+		P3z4wpcyI2A+msAwAWBSJlkPMPA=
 		</data>
 		<key>Modules/MoEngageObjCUtils.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -74,11 +70,11 @@
 		</data>
 		<key>Modules/MoEngageObjCUtils.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		e8CFga5yUCwEmgdSJkwhEDxJmfk=
+		u5zbzXGSfX+2sPZrtJlhgxhWjnk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		0xOBNZuqwhTNOp0BZ9ALBMnueVE=
+		NdxWQCzZ158ref0lvW3VovRrozo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -111,18 +107,11 @@
 			jY4gOVSOdtmFt9K40CHb42QJ16RZlGiUovgIZgfPDG4=
 			</data>
 		</dict>
-		<key>Headers/MoEngageObjCUtils-framework-iOS-umbrella.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cUezS+YeejtHFUiqu5VWaY6IYLd802KSgjsi2ghgsEk=
-			</data>
-		</dict>
 		<key>Headers/MoEngageObjCUtils.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+Oci2pUzjHE5s0+2xaKH+DeEb4cMJAQylLlpDuN4xro=
+			S06KezYb4/REXBG1LTQfQY64Y2+hm3br/Y4CKyJRwMU=
 			</data>
 		</dict>
 		<key>Headers/MoEngageProxyUtils.h</key>
@@ -164,7 +153,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YuvjIZfI5gWLajXXbkN2OyhASzLaCPxMdvRQ8O15/oM=
+			Jcq6IFyJ2xsajGgHJxLDAWV98BJyWy/lqd1K944zgUE=
 			</data>
 		</dict>
 		<key>Modules/MoEngageObjCUtils.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -199,14 +188,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o/VnRHQfEaf7BQHlV4/c0bzdG7Xlg8WOiYE4SYCVh0c=
+			7C8wGmUkvUSroR1PmU/45nybQg7qKAvlishb6rtKTWw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eleqMQJa/kZEqcs7hpZdb6j/mfPD1/2jPfaymGCN6qc=
+			uNbgYifN963U6FBfTmMcAL0PQdxcJIdNZPNtM6tOCtI=
 			</data>
 		</dict>
 	</dict>

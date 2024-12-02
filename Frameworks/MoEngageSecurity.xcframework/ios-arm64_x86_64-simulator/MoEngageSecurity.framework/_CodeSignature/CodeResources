@@ -8,21 +8,21 @@
 		<data>
 		5A3/7Dea82ioSl+5jaKk6gPLVp0=
 		</data>
-		<key>Headers/MoEngageSecurity-framework-iOS-umbrella.h</key>
+		<key>Headers/MoEngageSecurity.h</key>
 		<data>
-		q147Eo7n1y22S9RR4s7xGVN1m3M=
+		oUxShXOyZSWGvUev18AMKPFcNxs=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aEQeTVrkFlXJfJ30v4NRUmCuHT0=
+		rhIxYEz4DRJecy50wtBz1JF09Eg=
 		</data>
 		<key>Modules/MoEngageSecurity.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		hHVBxo3Z/LwygQ3cakZKXzVPdVY=
+		6xRvl6qynsrjFMHiznpDBdvl8Qs=
 		</data>
 		<key>Modules/MoEngageSecurity.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		eAwj/Q0awbD0R8H5rk/RzxF7utI=
+		5+biFT1trrLjBS5cKtqZho2PB00=
 		</data>
 		<key>Modules/MoEngageSecurity.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/MoEngageSecurity.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		eAwj/Q0awbD0R8H5rk/RzxF7utI=
+		5+biFT1trrLjBS5cKtqZho2PB00=
 		</data>
 		<key>Modules/MoEngageSecurity.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		l9cuTDRWjdbYnudDNK8Qko3IecY=
+		3NpzWhCx3LSfFdDWgOnRkVcsfcQ=
 		</data>
 		<key>Modules/MoEngageSecurity.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		hHVBxo3Z/LwygQ3cakZKXzVPdVY=
+		6xRvl6qynsrjFMHiznpDBdvl8Qs=
 		</data>
 		<key>Modules/MoEngageSecurity.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		98++B0kY2iEyRwNsO0IjOfYZ7UQ=
+		LK2XzTqnuv2seQp58qFZn4ub5YQ=
 		</data>
 		<key>Modules/MoEngageSecurity.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,15 +50,15 @@
 		</data>
 		<key>Modules/MoEngageSecurity.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		98++B0kY2iEyRwNsO0IjOfYZ7UQ=
+		LK2XzTqnuv2seQp58qFZn4ub5YQ=
 		</data>
 		<key>Modules/MoEngageSecurity.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		x1BmDq0b78d41gpKbrioA6dUlAU=
+		gyfHLHI18N+9PfNjCf5A7pChz14=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		WKo7utnyQwWJCrKtT0Zh3jfQl2c=
+		FLrGuOVsjxWoBZfXs3icroVpYW8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -70,25 +70,25 @@
 			XKPIYWDSUOo6pRmvka3rzxx6v7ou2WFWean1we1aCko=
 			</data>
 		</dict>
-		<key>Headers/MoEngageSecurity-framework-iOS-umbrella.h</key>
+		<key>Headers/MoEngageSecurity.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N22gwW3VE2nSwjioC6i6EXJPfm/W77L2c7cZjQ7T6MQ=
+			bbd8xiDUJQ4ofRmM6vwU6akoTKp3yxSeHIW0FX99Hkg=
 			</data>
 		</dict>
 		<key>Modules/MoEngageSecurity.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GamRh9QewGjFB64UeDLjCXyjGBEKJYaZD3QH71OZwaA=
+			EhM+hd8HZDgjr7kNAlgzeM3uaPc0LeUZH/7wQiOvVIE=
 			</data>
 		</dict>
 		<key>Modules/MoEngageSecurity.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			I+rGbthYbe09ARoc/dvyucqyfXeJvLL1dvn/W2spdkI=
+			jxXeDAyYNx6/+qvntqMaqLPg8uZ2uBtJ7lCQ+prgK2c=
 			</data>
 		</dict>
 		<key>Modules/MoEngageSecurity.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			I+rGbthYbe09ARoc/dvyucqyfXeJvLL1dvn/W2spdkI=
+			jxXeDAyYNx6/+qvntqMaqLPg8uZ2uBtJ7lCQ+prgK2c=
 			</data>
 		</dict>
 		<key>Modules/MoEngageSecurity.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fewhTTGaSYax8XXmR1JW14+24fTFZpdT+4T0y18bUXo=
+			UQiMQOGhTsr/Xpvg4DFbo7NFJGsE3GIib2YpC8Z8TE4=
 			</data>
 		</dict>
 		<key>Modules/MoEngageSecurity.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GamRh9QewGjFB64UeDLjCXyjGBEKJYaZD3QH71OZwaA=
+			EhM+hd8HZDgjr7kNAlgzeM3uaPc0LeUZH/7wQiOvVIE=
 			</data>
 		</dict>
 		<key>Modules/MoEngageSecurity.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			brX1i7uiqjH961LRRd87EV7E1s/OnQD/ESIowiMTqBY=
+			uTr1abVfuMQKVDUNMjfXNQD7WYrv5prZTtbmTYAJiRE=
 			</data>
 		</dict>
 		<key>Modules/MoEngageSecurity.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,21 +137,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			brX1i7uiqjH961LRRd87EV7E1s/OnQD/ESIowiMTqBY=
+			uTr1abVfuMQKVDUNMjfXNQD7WYrv5prZTtbmTYAJiRE=
 			</data>
 		</dict>
 		<key>Modules/MoEngageSecurity.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MwW+WgDf/1Npmz7BM1Lt1bfvyBxtLfqDm9wQWYGSAxA=
+			Yv1bpFVMP+TrSZx9VJPyziinnGtSWu3ziPzP9ub8GOs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j81cXQuDxOSFappwGAAhIeNgtxOs8ITHgaBCR5NrhH0=
+			2owBYGAsMkSnvR7N5KETkqC7HNp4Y4xGdMRSGQJNY3I=
 			</data>
 		</dict>
 	</dict>

@@ -1,7 +1,7 @@
 framework module MoEngageRichNotification {
-  umbrella header "MoEngageRichNotification-framework-umbrella.h"
-
+  umbrella header "MoEngageRichNotification.h"
   export *
+
   module * { export * }
 }
 
