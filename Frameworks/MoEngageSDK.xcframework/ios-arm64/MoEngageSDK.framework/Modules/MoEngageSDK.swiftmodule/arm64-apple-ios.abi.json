@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "MoEngageSDK",
+    "printedName": "MoEngageSDK",
     "children": [
       {
         "kind": "Import",
@@ -25,6 +25,13 @@
         "kind": "Import",
         "name": "MoEngageAnalytics",
         "printedName": "MoEngageAnalytics",
+        "declKind": "Import",
+        "moduleName": "MoEngageSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MoEngageMessaging",
+        "printedName": "MoEngageMessaging",
         "declKind": "Import",
         "moduleName": "MoEngageSDK"
       },
@@ -502,6 +509,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -556,9 +577,9 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/soumya.mahunt\/Documents\/moengage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageSDK\/MoEngage.swift",
+      "filePath": "\/Users\/runner\/work\/MoEngage-iPhone-SDK\/MoEngage-iPhone-SDK\/source\/Sources\/MoEngageSDK\/MoEngage.swift",
       "kind": "BooleanLiteral",
-      "offset": 4122,
+      "offset": 3908,
       "length": 5,
       "value": "false"
     }

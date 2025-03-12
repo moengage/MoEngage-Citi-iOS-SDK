@@ -4,25 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>CHANGELOG.md</key>
-		<data>
-		FqrAfrRv2Twz31tFzNOeB42xFRM=
-		</data>
 		<key>Headers/MoEngageRichNotification-Swift.h</key>
 		<data>
-		eSCs83qHXz4ztgeQ0TGAmSVjIjs=
+		8GNIzOcnksgsE53xSvSUocRCeTI=
 		</data>
-		<key>Headers/MoEngageRichNotification.h</key>
+		<key>Headers/MoEngageRichNotification-framework-umbrella.h</key>
 		<data>
-		M+gSUom1UnS9sw9jf4W186AKenc=
+		9xlu2QRif2YVQ5oolv7iVuv95Gs=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rkhMkuAfu13VylTMx4Qs49TzpgQ=
-		</data>
-		<key>LICENSE</key>
-		<data>
-		ih5AQhHYR6MqQ2cinlT1HtiVYGQ=
+		TOuASABvbSCiAY0aLvs8fUUqyH8=
 		</data>
 		<key>MoEngageCarouselCollectionView.nib</key>
 		<data>
@@ -42,47 +34,47 @@
 		</data>
 		<key>Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		TSccvvqD66RYo+1tRnfVqpty9l4=
+		nlUNl1nvScTu6Si5vy1b8S1dcNM=
 		</data>
 		<key>Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		aaFERDzKr5HzDC3TB/hBYeCRfn4=
+		Zv/l9xZl4ED7WoLA9qK/OJTIg3I=
 		</data>
 		<key>Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		N8RhFaTUtmYrHUc7w+jcABwZz6U=
+		CG3A1QZgoM5ixJFg+kHlkfeaoHU=
 		</data>
 		<key>Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		aaFERDzKr5HzDC3TB/hBYeCRfn4=
+		Zv/l9xZl4ED7WoLA9qK/OJTIg3I=
 		</data>
 		<key>Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rmfHCXMxPojxKdiBA99wEvkdXAg=
+		Ra+z2IMau+r5lUS6PaD0ja+DRGs=
 		</data>
 		<key>Modules/MoEngageRichNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		TSccvvqD66RYo+1tRnfVqpty9l4=
+		nlUNl1nvScTu6Si5vy1b8S1dcNM=
 		</data>
 		<key>Modules/MoEngageRichNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		USw2/JxvZBGVXQWuPPQq1oSLF/Y=
+		rCljtK1qLgsvpo987AWu5AtkuM0=
 		</data>
 		<key>Modules/MoEngageRichNotification.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		R0h6IVA8zKRqa2m9yRAW3Vi5qSs=
+		mEI1rBmk1TFI+MP54IP9MZONVAk=
 		</data>
 		<key>Modules/MoEngageRichNotification.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		USw2/JxvZBGVXQWuPPQq1oSLF/Y=
+		rCljtK1qLgsvpo987AWu5AtkuM0=
 		</data>
 		<key>Modules/MoEngageRichNotification.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		P2QuaPToaAOvg0qGux38eWwW2Eg=
+		rchjaE4BmnIXpxjM8MWGHNayD3A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		KOctMvqmm60kwX3cek98KclDt34=
+		Ire/8ED8YTncMUaVhFkkxQMdIKM=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -91,32 +83,18 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>CHANGELOG.md</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4e43tIrc0/m7iU7YUL4wABbeAVYbWfg8XOKJiDWRcCk=
-			</data>
-		</dict>
 		<key>Headers/MoEngageRichNotification-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YFCqII4lZxeXWiYRypPiBw9Bb2GmVluJd+wP7yc1JTM=
+			eFqBpm0o6IkNecNvyhoNYgF6LtZxKKvZVYsqONXqmdE=
 			</data>
 		</dict>
-		<key>Headers/MoEngageRichNotification.h</key>
+		<key>Headers/MoEngageRichNotification-framework-umbrella.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cNXa/va2ITWMrChBowjItgFs/V60Gjfzhpa9rOJp/zE=
-			</data>
-		</dict>
-		<key>LICENSE</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DHxoqa3SWsSeiRWX4o3nIP0kO6sTBMPVanytCdzu7ME=
+			R/70G4sLBFym9BrGfTmtUlKZf9masLsCXX1BLqidFow=
 			</data>
 		</dict>
 		<key>MoEngageCarouselCollectionView.nib</key>
@@ -151,77 +129,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dkYmr1GNASzspV6p4bQwnD6m1Lc8fAcP0m1dC0g6grg=
+			0v+VEgKcTPZSyiooOa0VML1koC29acvVYmesn42WWJw=
 			</data>
 		</dict>
 		<key>Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qImbQa2QVxJQp4P4UJ9JPi4gAncJCSnoklMK0WgV0P8=
+			CNBUg4wYnCg4EbYEBn1afYS4v3lEXXDOWCKKJ3zFe5k=
 			</data>
 		</dict>
 		<key>Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FWobnaU8Mq+k0die1145S6B6TMqb0zDnuO6/HYs9x0I=
+			AM6Z7XrsWSWmJvyeiDCR8roZJDBtHh20HCa6UFbjTVQ=
 			</data>
 		</dict>
 		<key>Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qImbQa2QVxJQp4P4UJ9JPi4gAncJCSnoklMK0WgV0P8=
+			CNBUg4wYnCg4EbYEBn1afYS4v3lEXXDOWCKKJ3zFe5k=
 			</data>
 		</dict>
 		<key>Modules/MoEngageRichNotification.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/qMiGwsZUEZ0D1g5iHqdKNQNJLu4AszNaq4iJ8kvP4k=
+			1xmtin0cFkjWvPB/0ZIyaqzY28AV0AJJXnbGl4zaT4M=
 			</data>
 		</dict>
 		<key>Modules/MoEngageRichNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dkYmr1GNASzspV6p4bQwnD6m1Lc8fAcP0m1dC0g6grg=
+			0v+VEgKcTPZSyiooOa0VML1koC29acvVYmesn42WWJw=
 			</data>
 		</dict>
 		<key>Modules/MoEngageRichNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Vp7RSpE4cELSv95pfUE1iQLnOR/O0cFPos5+XRH7cU=
+			UPVMguHqrTFuiy08dmEHwXa1+x3LWnx3DtfipSNAyRc=
 			</data>
 		</dict>
 		<key>Modules/MoEngageRichNotification.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5UI1hD6u35K8r2W4HwgoQGsqL3VuRfsP1BWHnA1KB5M=
+			esvTTvqlifDRtAiaos74ui9hKcUjlNqxOVzyjMz2b2w=
 			</data>
 		</dict>
 		<key>Modules/MoEngageRichNotification.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Vp7RSpE4cELSv95pfUE1iQLnOR/O0cFPos5+XRH7cU=
+			UPVMguHqrTFuiy08dmEHwXa1+x3LWnx3DtfipSNAyRc=
 			</data>
 		</dict>
 		<key>Modules/MoEngageRichNotification.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zHvQDKxvKvmmLxfII2JGqnKyZ6PmMj6ESWwlMmu7DL4=
+			B6HGKmHPTeULCHAybLSN8Kmj2c/Exr9kK/K2dtyXY9c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EhdCCSMDKx7l/spR5JNpEV4PYUcH/XuD2heqseZBwoo=
+			P2O7LhWldx+Kmj3p2OHHO+ma72rv5262jB/bSJi765c=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
